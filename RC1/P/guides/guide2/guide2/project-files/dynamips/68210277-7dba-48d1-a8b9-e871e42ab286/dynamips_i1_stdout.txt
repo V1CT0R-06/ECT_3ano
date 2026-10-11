@@ -1,0 +1,13 @@
+Cisco Router Simulation Platform (version 0.2.23-amd64/Darwin unstable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Jan  2 2023 06:34:02
+
+Log file: writing to dynamips_i1_log.txt
+Console binding address set to localhost
+Hypervisor TCP control server started (IP 127.0.0.1 port 56274).
+NIO udp-1652ec02-8b63-4de3-bbfc-fe88e9f12d1c: capturing to file '/Users/victor/Documents/ECT_3ano/RC1/P/guides/guide2/guide2/project-files/captures/Switch1_Ethernet1_to_R1_GigabitEthernet00.pcap'
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+NIO udp-1652ec02-8b63-4de3-bbfc-fe88e9f12d1c: ending packet capture.
+Shutdown completed.
