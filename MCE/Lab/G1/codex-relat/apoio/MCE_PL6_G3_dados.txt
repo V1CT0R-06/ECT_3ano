@@ -1,0 +1,48 @@
+Distância entre sensores, s (±0,0005 m) 0.0840 
+Incerteza da distância, Δs (m) 0.0005 
+Ensaio Tempo medido, t ᵢ (s) 
+1 0.0320 
+2 0.0325 
+3 0.0304 
+4 0.0327 
+5 0.0316 
+Tempo médio , t̄ ( s ) : 0.032 
+Incerteza do tempo, Δt (s): 0.001 
+Velocidade inicial, v ₀ (m/s): 2.6 
+Incerteza da velocidade, Δv ₀ (m/s): 0.1 
+Erro relativo da velocidade (%) 5.1 
+Critério de precisão ( ≤ 10%) Preciso 
+Parte A - Determinação da Velocidade Inicial 
+LEGENDA: 
+Células para preencher 
+Cálculos automáticos 
+Desvio absoluto , | tᵢ − t̄| ( s ) 
+0.0002 
+0.0007 
+0.0014 
+0.0009 
+0.0002 
+Altura de lançamento, y ᵢ (m) 0.26 
+Incerteza fita métrica Δx (m) 0.0005 
+Ângulo de lançamento, θ (°) Alcance x ₁ (±0,0005 m) 
+30 1.153 
+34 1.143 
+38 1.164 
+40 1.134 
+43 1.118 
+Ângulo de maior alcance observado (±1°) 
+Ângulo de maior alcance, θm áx,obs (°) 38 
+Incerteza do ângulo máximo, Δθm áx,obs (°) 1 
+Altura inicial, y ᵢ (m) 0.26 
+Ângulo teórico de alcance máximo, θm áx (°) 37.2 
+Ângulo teórico de máximo (°) 5.552355837 
+Nota: Δx = ±0,0005 m em cada alcance; y ᵢ = 0,26 m; yfinal = 0 m (referencial da bancada). 
+Nota: Δx = ±0,0005 m em cada alcance. O gui ão dispensa o erro do alcance médio. 
+Parte B - Dependência do Alcance com o Ângulo de Disparo 
+Alcance x ₂ (±0,0005 m) Alcance x ₃ (±0,0005 m) Alcance médio , x̄ ( m ) 
+1.155 1.149 1.152 
+1.156 1.154 1.151 
+1.139 1.158 1.154 
+1.131 1.147 1.137 
+1.122 1.129 1.123 
+Ângulo de Alcance Máximo θ_max_obs (°): 38 

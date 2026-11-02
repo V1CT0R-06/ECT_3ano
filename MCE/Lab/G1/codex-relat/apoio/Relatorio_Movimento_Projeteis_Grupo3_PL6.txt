@@ -1,0 +1,293 @@
+Universidade de Aveiro
+Departamento de Física
+Mecânica e Campo Eletromagnético
+Ano letivo 2026/2027
+
+
+
+
+
+
+Relatório Final
+Trabalho Prático – Movimento de Projéteis
+Determinação da velocidade inicial, dependência do alcance com o ângulo de lançamento e pêndulo balístico
+
+
+
+
+Identificação dos autores
+Nome completo
+Nº mecanográfico
+E-mail institucional
+Diogo Pereira
+133428
+diogomarquespereira@ua.pt
+José Rocha
+132425
+jose.m.rocha@ua.pt
+Victor Morais
+125478
+victorcostamorais@ua.pt
+
+Turma prática
+PL6
+Grupo
+3
+Docente
+[nome do docente]
+Data de realização
+[dd/mm/aaaa]
+Data de entrega
+27/10/2026
+
+Índice
+
+
+
+Resumo
+Este trabalho experimental teve como objetivos determinar a velocidade inicial de lançamento de um projétil (v₀) através de dois métodos independentes — a análise cinemática direta entre barreiras fotoelétricas e a aplicação dos princípios de conservação do momento linear e da energia mecânica num pêndulo balístico —, bem como estudar a dependência do alcance horizontal com o ângulo de disparo (θ). Na Parte A, mediu-se o tempo de passagem da esfera plástica entre dois sensores separados por uma distância fixa s = 0,0840 ± 0,0005 m, obtendo-se um tempo médio t̄ = 0,032 ± 0,001 s e uma velocidade inicial v₀ = 2,6 ± 0,1 m/s; este resultado é preciso, apresentando um erro relativo de 5,1 % (inferior ao limite de 10 %). Na Parte B, registaram-se os alcances horizontais para os ângulos de lançamento de 30°, 34°, 38°, 40° e 43° a partir de uma altura inicial yᵢ = 0,2600 ± 0,0005 m, identificando-se um ângulo de alcance máximo observado θmáx,obs = 38 ± 1° (para x̄_ob = 1,154 m). Este valor revelou-se preciso (erro relativo de 2,6 %) e exato, uma vez que o intervalo experimental [37°, 39°] interseta o valor teórico esperado θmáx = 37,2°. Na Parte C, a colisão perfeitamente inelástica da esfera (m = 0,00964 ± 0,00001 kg) com o pêndulo balístico (M = 0,23790 ± 0,00001 kg e l = 0,3480 ± 0,0005 m) originou um ângulo médio de deflexão ᾱ = 4,9 ± 0,4°, correspondente a uma elevação vertical do centro de massa h = (1,3 ± 0,2) × 10⁻³ m e a uma velocidade inicial v₀ = 4,0 ± 0,3 m/s. Apesar de o método do pêndulo balístico ter sido preciso (erro relativo de 8,0 % ≤ 10 %), os intervalos de incerteza de v₀ obtidos na Parte A ([2,5; 2,7] m/s) e na Parte C ([3,7; 4,3] m/s) não se intersetam, evidenciando falta de exatidão entre ambos os métodos devido a erros sistemáticos na medição mecânica do ângulo máximo e à distribuição real de massa do pêndulo; ainda assim, todos os objetivos propostos foram cumpridos.
+Introdução
+O estudo do movimento de projéteis constitui uma aplicação direta da cinemática bidimensional lecionada na componente teórica da unidade curricular [1, 2]. Desprezando a resistência aerodinâmica e assumindo a aceleração da gravidade (g) constante em módulo, direção e sentido, o movimento de um projétil de massa m lançado com velocidade inicial v₀ segundo um ângulo de inclinação θ₀ acima da horizontal decompõe-se em dois movimentos independentes: um movimento retilíneo uniforme segundo o eixo horizontal Ox (a_x = 0) e um movimento retilíneo uniformemente variado segundo o eixo vertical Oy (a_y = −g) [1, 3]. As coordenadas da posição instantânea do projétil no plano cartesiano (x, y) em função do tempo t são descritas pelas equações paramétricas do movimento:
+x = x₀ + v₀ t cos(θ₀)          (1)
+y = y₀ + v₀ t sin(θ₀) − ½ g t²          (2)
+onde x₀ e y₀ representam as coordenadas da posição inicial do projétil no instante t = 0 s. Caso o movimento ocorra na direção horizontal (θ₀ = 0°) ao longo de um trajeto curto s entre dois pontos onde a queda gravítica é desprezável, a velocidade inicial calcula-se diretamente pela razão v₀ = s / t. No lançamento oblíquo, eliminando o parâmetro temporal t entre as equações (1) e (2), obtém-se a equação da trajetória parabólica x(θ₀). Maximizando o alcance horizontal x em ordem ao ângulo de disparo para um projétil lançado de uma cota inicial yᵢ e que atinge o solo ou bancada à cota final y_f, deduz-se a expressão teórica para o ângulo de alcance máximo (θmáx) [2]:
+θmáx = arctg [ 1 / √(1 + 2g(yᵢ − y_f) / v₀²) ]          (3)
+Verifica-se pela equação (3) que, quando o ponto de lançamento e o ponto de impacto se encontram ao mesmo nível (yᵢ = y_f), o radicando toma o valor unitário e θmáx = 45°; contudo, sempre que o lançamento ocorre acima do plano de chegada (yᵢ > y_f), o ângulo que maximiza o alcance é estritamente inferior a 45° [1]. Como método alternativo à cinemática direta, a velocidade inicial v₀ pode ser determinada através de um pêndulo balístico de massa M suspenso a uma distância l do eixo de rotação [3]. Quando a esfera de massa m (com m ≪ M) é disparada horizontalmente contra o pêndulo em repouso e fica retida no seu interior, ocorre uma colisão perfeitamente inelástica. Durante o breve instante do embate, as forças internas de interação são muito superiores às forças gravíticas externas, pelo que o momento linear total do sistema se conserva segundo o eixo horizontal, cumprindo-se a relação m v₀ = (m + M) v₂ (5), em que v₂ designa a velocidade linear do conjunto (esfera + pêndulo) imediatamente após a colisão. Após a captura do projétil, o sistema oscila sob a ação de forças conservativas (desprezando o atrito no eixo e a resistência do ar), verificando-se a conservação da energia mecânica entre a posição mais baixa e o ponto de paragem momentânea à altura máxima h = l(1 − cos α), onde α é o ângulo máximo de deflexão: ½(m + M)v₂² = (m + M)gh (4). Combinando as equações de conservação do momento linear e da energia mecânica, obtém-se a relação fundamental do pêndulo balístico:
+v₀ = ((m + M) / m) √(2 g h)          (6)
+O presente trabalho experimental visa, assim, determinar o módulo da velocidade inicial v₀ pelo método cinemático (Parte A) e pelo método dinâmico do pêndulo balístico (Parte C), avaliando a precisão e a concordância (exatidão) entre ambos, bem como determinar experimentalmente o ângulo de alcance máximo observado (θmáx,obs) na Parte B e compará-lo com a previsão teórica dada pela equação (3).
+Detalhes experimentais relevantes
+Parte A – Determinação da velocidade inicial
+Material e instrumentos de medida
+Na execução da Parte A foram utilizados os seguintes materiais e instrumentos de medida (Figura 1 e Figura 2):
+• Lançador de projéteis (LP) com mola de compressão regulável, vareta de carregamento em plástico preto e suporte/base metálica de fixação com grampo;
+• Esfera plástica amarela (projétil);
+• Dois sensores óticos de passagem (barreiras fotoelétricas 3 e 4) acoplados a um braço de suporte na saída do lançador;
+• Sistema digital de controlo e contagem de tempo dos sensores (cronómetro digital com fonte de alimentação dedicada, configurado no modo «TWO GATES», com menor divisão da escala de 0,0001 s, correspondente a um erro de leitura de ±0,0001 s em cada medição individual);
+• Régua / fita métrica graduada em milímetros utilizada para medir a distância s entre os centros dos sensores óticos (instrumento analógico com menor divisão da escala de 1 mm = 0,001 m, pelo que o erro de leitura é metade da menor divisão: Δs = ±0,0005 m).
+Esquema da montagem
+
+Figura 1 – Fotografia geral das montagens experimentais disponíveis no laboratório para as Partes A, B e C.
+
+Figura 2 – Esquema da montagem experimental da Parte A: (1) lançador de projéteis; (2) base de fixação; (3) primeiro sensor ótico de passagem (início da contagem); (4) segundo sensor ótico de passagem (fim da contagem); (5) sistema eletrónico de controlo e cronometragem.
+Procedimento
+Montou-se o dispositivo experimental conforme esquematizado na Figura 2, fixando a base metálica (2) à extremidade da bancada com um grampo de aperto e alinhando o lançador de projéteis (1) na direção horizontal (θ₀ = 0°). Posicionou-se o primeiro sensor de passagem (3) imediatamente à saída da boca do cano e ligaram-se ambos os sensores ao sistema de controlo (5), mantendo este último inicialmente desligado (OFF). Com a régua milimétrica, mediu-se a distância horizontal s entre os feixes óticos dos sensores (3) e (4), registando-se o valor s = 0,0840 ± 0,0005 m. De seguida, introduziu-se a esfera plástica no cano e comprimiu-se a mola com a vareta de carregamento até ao primeiro patamar de retenção, correspondente ao regime de tiro curto («SHORT RANGE»), confirmado pela posição do indicador amarelo lateral. Ligou-se a unidade de controlo no modo «TWO GATES», premiu-se o botão «START/STOP» para armar o cronómetro e acionou-se o gatilho puxando o cordel de disparo. Registou-se o intervalo de tempo tᵢ decorrido entre a interrupção dos feixes dos dois sensores. Repetiu-se integralmente o procedimento para um total de N = 5 lançamentos independentes (Tabela 1 e Tabela 2 em Anexo).
+Cuidados a ter
+• Fixar firmemente a base de suporte à bancada com o grampo para impedir qualquer recuo ou vibração da estrutura no momento do disparo;
+• Confirmar antes de cada um dos 5 ensaios, através do fio de prumo na escala angular do lançador, que este permanece rigorosamente na posição horizontal (0°);
+• Posicionar o primeiro sensor (3) logo à saída do cano para que o trajeto entre os dois sensores ocorra antes de a trajetória sofrer deflexão vertical significativa pela ação da gravidade;
+• Puxar o fio do disparador na direção estritamente vertical e de forma suave, evitando induzir oscilações no cano ou alterar a velocidade de saída da esfera;
+• Medir a distância s entre pontos homólogos dos dois sensores (de centro a centro das fendas óticas) ao nível da linha de visão para minimizar o erro de paralaxe.
+Parte B – Dependência do alcance com o ângulo de disparo
+Material e instrumentos de medida
+Para o estudo da dependência do alcance com o ângulo de lançamento na Parte B utilizaram-se os seguintes materiais e instrumentos (Figura 3):
+• Lançador de projéteis (LP) acoplado à base metálica de fixação com grampo e vareta de carregamento;
+• Escala angular (transferidor com fio de prumo) integrada na lateral do lançador de projéteis (menor divisão de 1°, sendo a incerteza de amostragem discreta considerada na determinação de θmáx,obs igual a Δθ = ±1°);
+• Esfera plástica amarela;
+• Alvo de registo de impacto constituído por folhas de papel milimétrico fixadas à bancada e sobrepostas por papel químico;
+• Fita métrica / régua graduada em milímetros para medição da altura inicial de lançamento yᵢ e dos alcances horizontais x (menor divisão de 1 mm = 0,001 m; erro de leitura analógico igual a metade da menor divisão: Δyᵢ = Δx = ±0,0005 m).
+Esquema da montagem
+
+Figura 3 – Esquema da montagem experimental da Parte B: (1) lançador de projéteis inclinado de um ângulo θ; (2) base de fixação; (3) alvo na bancada; yᵢ representa a altura inicial de saída da esfera e x o alcance horizontal.
+Procedimento
+Retiraram-se os sensores óticos da saída do lançador e manteve-se a base (2) fixa à bancada conforme representado na Figura 3. Ajustou-se a inclinação do lançador de projéteis (1) para o primeiro ângulo de disparo, θ = 30° acima da horizontal, e mediu-se com a fita métrica a altura vertical yᵢ desde a superfície da bancada (referencial y_f = 0 m) até ao centro da esfera indicado na boca do lançador, obtendo-se yᵢ = 0,2600 ± 0,0005 m. Efetuou-se um lançamento de teste na posição de tiro curto («SHORT RANGE») para localizar, por tentativa e erro, a zona de queda da esfera. Fixou-se nesse local o alvo (3), composto por papel milimétrico coberto por uma folha de papel químico. Realizaram-se 3 disparos consecutivos para o ângulo de 30°, medindo com a fita métrica os respetivos alcances horizontais (x₁, x₂ e x₃) desde a projeção vertical do ponto de lançamento na bancada até às marcas deixadas pelo papel químico. Repetiu-se este procedimento experimental (3 disparos por cada inclinação) para os ângulos de lançamento de 34°, 38°, 40° e 43° (Tabela 3 e Tabela 4 em Anexo).
+Cuidados a ter
+• Verificar antes de cada disparo se o ângulo de inclinação θ permanece inalterado, apertando devidamente os parafusos laterais de fixação do lançador;
+• Fixar o papel milimétrico à superfície da bancada com fita-cola para impedir o seu deslocamento entre impactos sucessivos, sobrepondo o papel químico apenas sem o colar rigidamente para permitir identificar cada marca;
+• Assinalar e numerar no papel milimétrico cada ponto de impacto imediatamente após o respetivo disparo, evitando confusões entre marcas de diferentes ensaios;
+• Garantir que todos os carregamentos são efetuados exatamente no mesmo patamar («SHORT RANGE») e alinhar a fita métrica perpendicularmente à base do lançador durante a leitura do alcance x.
+Parte C – Pêndulo balístico
+Material e instrumentos de medida
+Na execução da Parte C foram utilizados os seguintes materiais e instrumentos de medida (Figura 4):
+• Lançador de projéteis (LP), base de fixação com grampo, vareta de carregamento e esfera plástica amarela;
+• Pêndulo balístico constituído por uma haste rígida acoplada a um recetor de retenção de projéteis (massa M) e a um ponteiro arrastador sobre uma escala angular superior;
+• Balança eletrónica digital utilizada para medir a massa da esfera (m) e a massa do pêndulo (M) (instrumento digital com menor divisão de 0,01 g = 0,00001 kg, correspondente a um erro de leitura de Δm = ΔM = ±0,00001 kg);
+• Fita métrica / régua milimétrica utilizada para medir o comprimento do pêndulo l desde o eixo de suspensão até ao centro de massa (CM) (menor divisão de 1 mm = 0,001 m; erro de leitura analógico: Δl = ±0,0005 m);
+• Transferidor / escala angular do pêndulo balístico (menor divisão de 1°, permitindo estimar leituras até à décima de grau; nas 5 medições diretas o erro experimental de ᾱ foi determinado pelo desvio máximo absoluto Δα = máx |αᵢ − ᾱ|).
+Esquema da montagem
+
+Figura 4 – Esquema da montagem experimental da Parte C (pêndulo balístico), evidenciando a esfera de massa m e velocidade inicial v₀, o pêndulo de massa M e comprimento l, o ângulo máximo de deflexão α e a elevação vertical h do centro de massa (CM).
+Procedimento
+Antes de montar o pêndulo na estrutura de suporte, determinou-se na balança digital a massa da esfera plástica (m = 0,00964 ± 0,00001 kg) e a massa do pêndulo balístico (M = 0,23790 ± 0,00001 kg). Mediu-se também com a régua milimétrica o comprimento l do pêndulo, compreendido entre o eixo de rotação superior e o centro de massa (CM) assinalado no bloco recetor, obtendo-se l = 0,3480 ± 0,0005 m. Fixou-se de seguida o pêndulo no suporte vertical alinhado frontalmente com a boca do lançador de projéteis colocado na horizontal (θ₀ = 0°), conforme a Figura 4. Carregou-se o lançador na posição «SHORT RANGE», colocou-se o pêndulo em repouso na vertical e encostou-se o ponteiro indicador de arrasto ao marco zero (0°). Efetuou-se o disparo, verificando a retenção da esfera no recetor, e registou-se o ângulo máximo α indicado pelo ponteiro na escala graduada. Repetiu-se o ensaio para um total de N = 5 medições (Tabela 5 e Tabela 6 em Anexo).
+Cuidados a ter
+• Garantir que o pêndulo se encontra completamente imóvel na posição de equilíbrio vertical e que o ponteiro de arrasto está encostado ao zero (0°) antes de cada lançamento;
+• Confirmar que o lançador está perfeitamente nivelado na horizontal e alinhado com o eixo central da abertura do pêndulo, garantindo uma colisão frontal sem torção lateral da haste;
+• Verificar que a esfera fica efetivamente retida no interior da cavidade do pêndulo após o embate, condição indispensável para que a colisão seja perfeitamente inelástica;
+• Efetuar a leitura do ângulo máximo α posicionando os olhos perpendicularmente ao plano da escala graduada, de modo a minimizar o erro de paralaxe.
+Análise e discussão
+Parte A – Determinação da velocidade inicial
+Análise
+A partir dos N = 5 intervalos de tempo medidos diretamente no laboratório (apresentados na Tabela 1 e Tabela 2 em Anexo), calculou-se o tempo médio de passagem (t̄) através da média aritmética simples:
+t̄ = (1 / N) Σ tᵢ = (0,0320 + 0,0325 + 0,0304 + 0,0327 + 0,0316) / 5 = 0,03184 s
+Como o número de medições diretas satisfaz a condição 1 < N < 10, a incerteza experimental associada ao tempo médio (Δt) é dada pelo limite superior dos desvios absolutos em relação à média, Δt = máx |tᵢ − t̄|. Consultando os desvios calculados na Tabela 2 em Anexo, verifica-se que o desvio máximo ocorre no 3.º ensaio (t₃ = 0,0304 s):
+Δt = máx |tᵢ − t̄| = |0,0304 − 0,03184| = 0,00144 s
+Arredondando a incerteza a um único algarismo significativo e o valor médio ao mesmo número de casas decimais, obtém-se t̄ = 0,032 ± 0,001 s (ou (3,2 ± 0,1) × 10⁻² s). Contudo, respeitando as regras de cálculo, manteve-se um algarismo significativo adicional nos valores intermédios (t̄ = 0,03184 s e Δt = 0,00144 s) para o cálculo da velocidade inicial e da respetiva incerteza. Sabendo que a distância medida entre sensores foi s = 0,0840 ± 0,0005 m, a velocidade média no troço horizontal — que corresponde ao módulo da velocidade inicial v₀ à saída do lançador — é dada por:
+v₀ = s / t̄ = 0,0840 / 0,03184 = 2,6382 m/s          (7)
+Para determinar o erro associado à medida indireta de v₀, recorreu-se à expressão geral de propagação de erros (limite superior do erro), Δv₀ = |∂v₀/∂s| Δs + |∂v₀/∂t̄| Δt. Calculando as derivadas parciais de v₀ = s / t̄ em ordem a s e a t̄, deduz-se a equação de propagação:
+Δv₀ = (1 / t̄) Δs + (s / t̄²) Δt = v₀ ( Δs / s + Δt / t̄ )          (8)
+Substituindo os valores experimentais na equação (8), calcularam-se separadamente as duas parcelas que contribuem para a incerteza total de v₀:
+Δv₀ = (0,0005 / 0,03184) + (0,0840 × 0,00144 / 0,03184²) = 0,01570 + 0,11932 = 0,13502 m/s
+Arredondando o erro Δv₀ para um único algarismo significativo (Δv₀ = 0,1 m/s, visto que o algarismo seguinte é 3 < 5) e acertando o valor de v₀ para uma casa decimal (2,6382 → 2,6 m/s), apresenta-se o resultado final da Parte A:
+v₀ = 2,6 ± 0,1 m/s
+Discussão
+A avaliação da precisão do método cinemático efetua-se através do cálculo do erro relativo percentual associado à velocidade inicial:
+ε_r(v₀) = (Δv₀ / v₀) × 100 % = (0,13502 / 2,6382) × 100 % = 5,1 %   (ou 0,1 / 2,6 × 100 % = 3,8 %)
+Em qualquer das convenções (usando os valores intermédios ou os valores já arredondados), o erro relativo é claramente inferior ao limiar de 10 % definido como critério de qualidade experimental (5,1 % ≤ 10 %), permitindo concluir que a determinação de v₀ na Parte A é precisa. Analisando individualmente as duas parcelas da equação de propagação (8), constata-se que o termo associado à medição da distância s contribui com apenas |∂v₀/∂s| Δs = 0,0157 m/s (11,6 % do erro total, correspondente a Δs/s = 0,60 %), enquanto o termo associado à medição do intervalo de tempo t̄ contribui com |∂v₀/∂t̄| Δt = 0,1193 m/s (88,4 % do erro total, correspondente a Δt/t̄ = 4,52 %). Conclui-se, portanto, que a maior fonte de incerteza reside na determinação do tempo de passagem t̄. Embora o cronómetro digital possua uma elevada resolução (0,0001 s), a dispersão estatística entre os 5 lançamentos (Δt = 0,00144 s) domina o erro de v₀. Esta dispersão deve-se a ligeiras flutuações mecânicas na libertação do êmbolo da mola quando se puxa manualmente o cordel de disparo, bem como ao pequeno espaçamento entre sensores (s = 8,40 cm), que origina tempos de voo muito curtos (da ordem de 32 ms) e torna o quociente Δt/t̄ mais sensível a variações de milissegundos.
+Para melhorar a precisão deste resultado em futuras realizações práticas, propõem-se três estratégias principais: (i) aumentar o número de lançamentos (por exemplo, N ≥ 10 ensaios) para reduzir o peso estatístico de valores atípicos (como o registado no 3.º ensaio) e permitir o uso do desvio padrão da média; (ii) substituir a régua milimétrica por uma craveira (paquímetro) para medir a distância s entre as fendas óticas dos sensores com menor incerteza (Δs = 0,05 mm ou 0,02 mm); e (iii) implementar um mecanismo de disparo eletromecânico ou de gatilho fixo que elimine a variabilidade humana na tração manual do fio.
+Parte B – Dependência do alcance com o ângulo de disparo
+Análise
+Na Parte B, realizaram-se três disparos para cada um dos cinco ângulos de lançamento selecionados (30°, 34°, 38°, 40° e 43°), cujos valores brutos se encontram discriminados na Tabela 3 e na Tabela 4 em Anexo. Para cada ângulo θ, determinou-se o alcance médio observado, x̄_ob = (x₁ + x₂ + x₃) / 3, apresentando-se o resumo dos resultados na Tabela A seguinte (de acordo com o guião, dispensa-se o cálculo do erro associado ao alcance médio):
+Tabela A – Valores médios do alcance horizontal observado (x̄_ob) em função do ângulo de lançamento (θ).
+Ângulo de lançamento, θ [°]
+Alcance médio observado, x̄_ob [m]
+30
+1,152
+34
+1,151
+38
+1,154
+40
+1,137
+43
+1,123
+Na Figura 5 representa-se graficamente a variação do alcance médio observado (x̄_ob) em função do ângulo de disparo (θ), juntamente com uma curva de ajuste quadrático tracejada que ilustra o comportamento parabólico na vizinhança do máximo.
+
+Figura 5 – Representação gráfica do alcance médio observado (x̄_ob) em função do ângulo de lançamento (θ).
+Por inspeção direta da Tabela A e do gráfico da Figura 5, verifica-se que o maior alcance médio foi registado para o ângulo de 38° (x̄_ob = 1,154 m). Atendendo a que se realizou uma amostragem discreta de ângulos, toma-se a incerteza associada igual a Δθmáx,obs = 1°, resultando em:
+θmáx,obs = 38 ± 1°
+Discussão
+Para avaliar a exatidão do ângulo de alcance máximo observado, comparou-se θmáx,obs com a previsão teórica dada pela equação (3). Adotando o plano da bancada como nível de referência (y_f = 0 m), a diferença de cotas entre o ponto de saída da esfera e o ponto de impacto é yᵢ − y_f = 0,2600 m. Utilizando o módulo da velocidade inicial determinado na Parte A (v₀ = 2,6382 m/s) e g = 9,81 m/s², obtém-se:
+θmáx = arctg [ 1 / √(1 + (2 × 9,81 × 0,2600) / 2,6382²) ] = arctg(0,7597) = 37,2°
+(Nota: caso se utilize o valor arredondado v₀ = 2,6 m/s na equação (3), obtém-se igualmente θmáx = 37,1°). Comparando o resultado experimental θmáx,obs = 38 ± 1° (intervalo [37°, 39°]) com o valor teórico esperado θmáx = 37,2°, constata-se que o valor teórico está contido dentro do intervalo de incerteza experimental (37,0° ≤ 37,2° ≤ 39,0°). Conclui-se, assim, que a determinação de θmáx,obs é exata (desvio relativo face ao valor teórico de apenas |38 − 37,2| / 37,2 = 2,2 %) e também precisa, apresentando um erro relativo de Δθmáx,obs / θmáx,obs = (1 / 38) × 100 % = 2,6 % (≤ 10 %). Este resultado confirma experimentalmente a previsão cinemática de que, para lançamentos efetuados a uma altura superior ao plano de impacto (yᵢ > y_f), o alcance máximo ocorre para um ângulo inferior a 45° [1, 2].
+Relativamente à dependência global de x̄_ob com θ (Figura 5), observa-se que entre 30° (1,152 m), 34° (1,151 m) e 38° (1,154 m) o alcance médio varia muito pouco (apenas 3 mm de diferença), decrescendo de forma mais acentuada para ângulos superiores ao máximo: 1,137 m a 40° e 1,123 m a 43°. Na verdade, para 34° registou-se uma ligeira quebra de 1 mm face a 30°, o que se explica pelo facto de a derivada dx/dθ ser próxima de zero na vizinhança da bossa máxima da parábola; nessa região plana, a variação teórica do alcance para alguns graus é da ordem dos milímetros, sendo facilmente mascarada pela dispersão experimental entre disparos (que atingiu 2,5 cm nos ensaios a 38°, entre 1,139 m e 1,164 m). Entre os principais fatores práticos responsáveis por esta dispersão destacam-se: (i) o facto de a altura inicial yᵢ aumentar ligeiramente à medida que se roda o corpo do lançador para ângulos θ maiores (já que o eixo de rotação da base não coincide exatamente com a boca do cano); (ii) pequenas variações na força elástica libertada pela mola e no atrito interno da esfera contra as paredes do tubo; (iii) a resistência aerodinâmica do ar e o eventual efeito Magnus induzido pela rotação da esfera plástica; e (iv) a incerteza na identificação do centro geométrico da mancha deixada pelo papel químico.
+Parte C – Pêndulo balístico
+Análise
+A partir dos N = 5 valores do ângulo máximo de deflexão α medidos na Parte C (Tabela 6 em Anexo: 5,2°; 4,5°; 5,0°; 4,9° e 4,8°), determinou-se o ângulo médio ᾱ e a respetiva incerteza absoluta Δα (dada pelo desvio máximo, visto que 1 < N < 10):
+ᾱ = (5,2 + 4,5 + 5,0 + 4,9 + 4,8) / 5 = 4,88°   ;   Δα = máx |αᵢ − ᾱ| = |4,5 − 4,88| = 0,38°
+Exprimindo o resultado direto de acordo com as regras de arredondamento, obtém-se ᾱ = 4,9 ± 0,4°. Convertendo os valores intermédios para unidades do Sistema Internacional (radianos), tem-se ᾱ = 4,88 × (π / 180) = 0,08517 rad e Δα = 0,38 × (π / 180) = 0,006632 rad. Pela geometria do pêndulo de comprimento l = 0,3480 ± 0,0005 m (Figura 4), a altura máxima de elevação vertical do centro de massa do conjunto após a colisão é dada por:
+h = l (1 − cos ᾱ) = 0,3480 × (1 − cos(4,88°)) = 0,001261 m = 1,261 × 10⁻³ m          (9)
+Aplicando a lei de propagação de erros à função h(l, α), onde Δα tem obrigatoriamente de ser substituído em radianos, obtém-se a incerteza Δh:
+Δh = |∂h/∂l| Δl + |∂h/∂ᾱ| Δα = |1 − cos ᾱ| Δl + |l sin ᾱ| Δα          (10)
+Δh = (3,625 × 10⁻³ × 0,0005) + (0,02960 × 0,006632) = 1,81 × 10⁻⁶ + 1,963 × 10⁻⁴ = 0,000198 m
+Assim, a altura máxima atingida pelo centro de massa é h = 0,0013 ± 0,0002 m, ou, recorrendo à notação científica para evitar zeros à esquerda, h = (1,3 ± 0,2) × 10⁻³ m. Seguidamente, utilizando as massas medidas na balança digital (m = 0,00964 ± 0,00001 kg e M = 0,23790 ± 0,00001 kg) e a altura intermédia h = 0,001261 m na equação (6) do pêndulo balístico (com g = 9,80 m/s²), determinou-se a velocidade inicial do projétil:
+v₀ = ((m + M) / m) √(2 g h) = ((0,00964 + 0,23790) / 0,00964) × √(2 × 9,80 × 0,001261) = 4,038 m/s
+A incerteza Δv₀ resulta da propagação dos erros das três variáveis independentes (m, M e h) aplicadas à equação (6):
+Δv₀ = |∂v₀/∂m| Δm + |∂v₀/∂M| ΔM + |∂v₀/∂h| Δh = (M / m²)√(2gh) Δm + (1 / m)√(2gh) ΔM + (v₀ / 2h) Δh          (11)
+Calculando o valor numérico de cada uma das três parcelas da equação (11), vem:
+Δv₀ = 0,00403 + 0,00016 + 0,31712 = 0,32131 m/s
+Arredondando a incerteza a um algarismo significativo (Δv₀ = 0,3 m/s) e o valor de v₀ à primeira casa decimal (4,0 m/s), obtém-se o resultado final da velocidade inicial pelo método do pêndulo balístico:
+v₀ = 4,0 ± 0,3 m/s
+Discussão
+Analisando as contribuições das diferentes variáveis para o erro de v₀ na Parte C, verifica-se que a parcela associada à altura h (|∂v₀/∂h| Δh = 0,3171 m/s) representa 98,7 % da incerteza total Δv₀, ao passo que as incertezas das massas m e M contribuem com apenas 1,25 % (0,0040 m/s) e 0,05 % (0,0002 m/s), respetivamente. Por sua vez, decompondo o erro Δh através da equação (10), observa-se que 99,1 % da incerteza da altura provém da parcela angular |l sin ᾱ| Δα (1,963 × 10⁻⁴ m), enquanto o erro do comprimento l contribui com apenas 0,9 % (1,81 × 10⁻⁶ m). Conclui-se, de forma inequívoca, que a medição do ângulo máximo de deflexão α constitui a maior fonte de erro experimental na Parte C. Como o pêndulo é muito mais pesado do que a esfera plástica (M ≈ 24,7 m), o ângulo de deflexão atingido no regime «SHORT RANGE» é muito reduzido (ᾱ = 4,88°), fazendo com que uma variação de décimas de grau (Δα = 0,38°) produza um erro relativo elevado na altura h (Δh/h = 15,7 %) e, consequentemente, domine a incerteza de v₀.
+Avaliando a precisão do resultado da Parte C, obtém-se um erro relativo percentual de ε_r(v₀) = (0,3213 / 4,038) × 100 % = 8,0 % (ou 0,3 / 4,0 × 100 % = 7,5 %). Visto que ε_r ≤ 10 %, o valor obtido pelo pêndulo balístico classifica-se como preciso, embora seja menos preciso do que o método dos sensores óticos da Parte A (5,1 %). No entanto, quando se compara a velocidade inicial da Parte C (v₀ = 4,0 ± 0,3 m/s ⇒ intervalo [3,7; 4,3] m/s) com a determinada na Parte A (v₀ = 2,6 ± 0,1 m/s ⇒ intervalo [2,5; 2,7] m/s), constata-se que os dois intervalos de incerteza não se intersetam, existindo uma diferença de 1,4 m/s entre os valores centrais. Conclui-se, portanto, que os resultados não são exatos entre si (a determinação da Parte C carece de exatidão face ao valor de referência da Parte A, que já fora validado com sucesso na previsão de θmáx na Parte B).
+Esta sobreavaliação sistemática de v₀ na Parte C (4,0 m/s contra 2,6 m/s) não pode ser explicada por perdas de energia por atrito no eixo de suspensão ou arrasto do ponteiro (já que tais perdas diminuiriam o ângulo α e subestimariam v₀), mas sim por fatores sistemáticos específicos da montagem do pêndulo balístico: (i) no instante do embate e captura da esfera, o impulso brusco provoca uma pequena oscilação/vibração do ponteiro de arrasto, fazendo-o deslizar ligeiramente para além da posição de paragem real do centro de massa (basta que o ângulo real fosse cerca de 3,2° em vez de 4,9° para que a equação (6) fornecesse v₀ ≈ 2,6 m/s); (ii) erro de zero ou ligeiro desalinhamento inicial do ponteiro na escala graduada; e (iii) aproximação do pêndulo balístico real por um pêndulo simples (massa pontual concentrada à distância l) na dedução da equação (6), quando na prática se trata de um pêndulo físico com haste rígida cujo momento de inércia e posição efetiva do centro de massa do conjunto (M + m) diferem da marcação nominal. Para melhorar o resultado da Parte C, sugere-se: utilizar uma esfera de maior massa (ou realizar o ensaio num regime de compressão superior, como «MEDIUM RANGE», em ambas as partes) para obter ângulos α maiores e reduzir o erro relativo Δα/ᾱ; substituir o ponteiro mecânico de arrasto por um sensor de rotação ótico/angular; e contabilizar rigorosamente o momento de inércia do pêndulo físico.
+Conclusões
+O trabalho experimental realizado permitiu cumprir todos os objetivos propostos no guião laboratorial: determinou-se a velocidade inicial do projétil através das equações cinemáticas do movimento (Parte A) e através do método dinâmico do pêndulo balístico (Parte C), e verificou-se experimentalmente a dependência do alcance horizontal com o ângulo de lançamento (Parte B).
+Na Parte A, o método de cronometragem eletrónica entre duas barreiras óticas forneceu uma velocidade inicial v₀ = 2,6 ± 0,1 m/s. O resultado revelou-se preciso (erro relativo de 5,1 % ≤ 10 %), identificando-se a dispersão na medição do tempo de voo (t̄ = 0,032 ± 0,001 s) como a principal fonte de incerteza (88,4 % de Δv₀), fruto da variabilidade mecânica no acionamento manual do disparador num percurso curto (s = 0,0840 ± 0,0005 m). Na Parte B, o estudo do alcance médio para cinco inclinações distintas permitiu identificar um ângulo de alcance máximo observado θmáx,obs = 38 ± 1° (para um alcance médio máximo de 1,154 m). Este valor mostrou-se preciso (erro relativo de 2,6 %) e exato, uma vez que o intervalo experimental [37°, 39°] engloba o valor teórico θmáx = 37,2° calculado para a altura de lançamento yᵢ = 0,2600 ± 0,0005 m e para a velocidade v₀ da Parte A, confirmando que o ângulo ótimo é inferior a 45° sempre que o lançamento ocorre acima do nível de impacto. Na Parte C, a análise da colisão inelástica no pêndulo balístico conduziu a um ângulo médio ᾱ = 4,9 ± 0,4°, a uma subida vertical do centro de massa h = (1,3 ± 0,2) × 10⁻³ m e a uma velocidade inicial v₀ = 4,0 ± 0,3 m/s. Embora este valor cumpra o critério de precisão (erro relativo de 8,0 % ≤ 10 %), verificou-se que a incerteza na leitura do pequeno ângulo α domina quase na totalidade o erro final (98,7 % via Δh) e que os intervalos de v₀ das Partes A e C não se intersetam, traduzindo falta de exatidão entre os dois métodos devido ao avanço excessivo do ponteiro mecânico por impulso/vibração no embate e à aproximação de massa pontual.
+Como crítica global e proposta de melhoria para futuras sessões laboratoriais, salienta-se que o protocolo experimental beneficiaria de uma amostragem mais densa de ângulos na Parte B (por exemplo, de 1° em 1° entre 35° e 40°, mantendo a altura da boca do cano constante) para definir com maior resolução o pico da curva de alcance, bem como da substituição do indicador mecânico do pêndulo balístico por um sensor angular digital e do aumento do número de repetições (N ≥ 10), mitigando quer os erros aleatórios de disparo, quer os desvios sistemáticos na leitura de pequenos ângulos.
+Bibliografia
+[1] Serway, R. A., Physics for Scientists and Engineers with Modern Physics, Saunders College Publishing, 2000.
+[2] Alonso & Finn, Física – um curso universitário, vol. 1, 3.ª ed., Edgard Blücher, 1981, Cap. 5 e 7.
+[3] Resnick, R. e Halliday, D., Física, vol. 2, 4.ª ed., Livros Técnicos e Científicos, 1990.
+Anexos
+Tabela de dados – Parte A
+Parâmetro
+Valor
+Incerteza
+Distância entre sensores, s [m]
+0,0840
+0,0005
+
+Ensaio
+Tempo medido, tᵢ [s]
+Desvio absoluto, |tᵢ − t̄| [s]
+1
+0,0320
+0,00016
+2
+0,0325
+0,00066
+3
+0,0304
+0,00144
+4
+0,0327
+0,00086
+5
+0,0316
+0,00024
+Tabela 1 e Tabela 2 – Parâmetros fixos e dados experimentais da Parte A.
+Tabela de dados – Parte B
+Parâmetro
+Valor
+Incerteza
+Altura de lançamento, yᵢ [m]
+0,2600
+0,0005
+Alcance, x [m]
+Ver Tabela 4
+0,0005
+
+Ângulo de lançamento, θ [°]
+Alcance, x₁ [m]
+Alcance, x₂ [m]
+Alcance, x₃ [m]
+Alcance médio, x̄ [m]
+30
+1,153
+1,155
+1,149
+1,152
+34
+1,143
+1,156
+1,154
+1,151
+38
+1,164
+1,139
+1,158
+1,154
+40
+1,134
+1,131
+1,147
+1,137
+43
+1,118
+1,122
+1,129
+1,123
+Tabela 3 e Tabela 4 – Parâmetros fixos e dados experimentais da Parte B.
+Tabela de dados – Parte C
+Parâmetro
+Valor
+Incerteza
+Massa do projétil, m [kg]
+0,00964
+0,00001
+Massa do pêndulo, M [kg]
+0,23790
+0,00001
+Comprimento do pêndulo, l [m]
+0,3480
+0,0005
+
+Ensaio
+Ângulo máximo, α [°]
+Desvio, |αᵢ − ᾱ| [°]
+1
+5,2
+0,32
+2
+4,5
+0,38
+3
+5,0
+0,12
+4
+4,9
+0,02
+5
+4,8
+0,08
+Tabela 5 e Tabela 6 – Parâmetros fixos e dados experimentais da Parte C.

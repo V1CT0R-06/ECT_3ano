@@ -1,0 +1,1667 @@
+Página 1  
+ 
+ 
+ 
+Departamento de Física Departamento de Física Departamento de Física Departamento de Física 
+ 
+ 
+ 
+ 
+ 
+Instrumentação e análise de dados 
+experimentais  
+
+Página 2  
+ 
+1. Introdução ..................................... ...................................................................................... 3 
+2. Medições directas e Instrumentos de medida ..... ................................................................ 4 
+2.1. Erros experimentais .......................... .......................................................................... 5 
+3. Avaliação de um resultado experimental: precisão  e exactidão na medição de uma 
+grandeza ...................................................................................................................................... 9 
+i) Precisão ....................................... ............................................................................... 9 
+ii) Exactidão: número reduzido de medições ........ ......................................................... 9 
+4. Resultado experimental de medições directas. ... .............................................................. 10 
+4.1. A grandeza é medida uma única vez. Erro de lei tura ou instrumental e erro de 
+observação ................................................................................................................ 10 
+4.2. Análise da dispersão devida a erros acidentais  num conjunto de N medidas: 
+Histogramas e curvas de distribuição....................................................................... 11 
+4.3. Grandeza medida um número reduzido de vezes (N  <10) ....................................... 14 
+5. Medidas Indirectas ............................. ............................................................................... 14 
+5.1. Combinação ou propagação de erros em grandezas  independentes ......................... 14 
+5.2. Grandeza determinada a partir da relação entre  duas grandezas não independentes. 
+ .................................................................................................................................. 15 
+Apêndice A: Algarismos significativos e arredondamentos..................................................... 23 
+Apêndice B: Grandeza determinada a partir de um grande número de medições (N ≥ 10) ...... 25 
+Apêndice C: Tabela Síntese para análise de dados................................................................... 30 
+Apêndice D: Planificação de uma experiência e elaboração do relatório ................................ 31 
+Apêndice E: Tabela de derivadas consideradas fundamentais no âmbito da disciplina ........... 34 
+Apêndice F: Exercícios Complementares ................................................................................ 35 
+Bibliografia ............................................................................................................................... 39 
+ 
+Página 3  
+1.  Introdução 
+ 
+Este documento apresenta um conjunto de conceitos t eóricos relativos à análise e tratamento 
+de observações e resultados experimentais, apoiados  numa série de actividades e exercícios a 
+realizar ao longo das primeiras aulas. Foram selecc ionados apenas os conteúdos considerados 
+fundamentais para atingir os objectivos da componen te prática das disciplinas de Física 
+leccionadas no primeiro ano. 
+A metodologia adoptada não explora exaustivamente o s detalhes da fundamentação teórica 
+dos conceitos abordados. O aprofundamento dos conce itos pode ser feito através da 
+bibliografia indicada. 
+ 
+Página 4  
+ 
+2.  Medições directas e Instrumentos de medida  
+ 
+O processo de medição de uma grandeza  consiste em atribuir um valor numérico à grandeza 
+referido a um padrão (unidade). Este processo consi ste na interposição do fenómeno, do 
+observador, de um método e de instrumentos de medid a. O que significa que só fica completo 
+quando conhecidas as limitações e incertezas do mét odo e dos instrumentos, que uma vez 
+quantificadas representam a incerteza  (erro ) da medida . Ao longo deste documento adoptar-
+se-á indistintamente qualquer das designações: incerteza  ou erro da medida.  
+ 
+O resultado final de uma medição deve ser sempre apresentado como: 
+ 
+Grandeza medida = valor numérico ± erro absoluto (unidades) 
+ 
+ou 
+ 
+Grandeza medida = valor numérico (unidades) ± erro relativo (%)  
+ 
+As  Medidas Directas são as que resultam  da leitura num instrumento de medida, que 
+compara directamente  a grandeza a medir com a grandeza padrão usada na calibração  do 
+instrumento. 
+ 
+Genericamente, podemos dizer que um instrumento de medida funciona como um transdutor 
+que transforma um sinal qualitativo e inacessível ( X), aos nossos sentidos, num sinal 
+quantificável (Y). Assim as dimensões físicas do es tímulo (X) e da resposta (Y) não têm de 
+ser iguais.  
+ 
+Exemplo I: Num termómetro de mercúrio tem-se como r esposta ao estímulo variação de 
+temperatura a altura da coluna de mercúrio, cuja dimensão física é comprimento. 
+ 
+Torna-se então necessário proceder à calibração do transdutor, ou seja determinar uma tabela 
+de correspondência entre o estímulo (X) e a resposta (Y). 
+ 
+Página 5  
+Já que não existem instrumentos de medida perfeitos, é fundamental conhecer alguns dos seus 
+atributos para que a respectiva escolha seja adequa da à natureza da medida e ao objectivo da 
+medição. De entre os vários atributos interessa-nos  nesta fase analisar dois deles: a 
+sensibilidade e o rigor . Assim: 
+ 
+A Sensibilidade , define-se como a razão entre a variação na resposta  Y e a variação mínima 
+do estímulo X que a provoca. A sensibilidade também  pode ser caracterizada pelo Poder 
+Resolvente , o qual corresponde ao menor intervalo do estímulo ∆X,  que provoca uma variação 
+na resposta, ∆Y. 
+ 
+O Rigor , é a propriedade que caracteriza a dispersão das respostas Y a um mesmo estímulo X. 
+Isto resulta do facto da resposta estar também depe ndente das limitações inerentes ao próprio 
+instrumento de medida, como por exemplo o atrito da s molas num dinamómetro, flutuações 
+de níveis de tensão num voltímetro, atrito mecânico  num relógio analógico, etc. Assim, em 
+geral, não se obtém sempre a mesma resposta para es tímulos idênticos e torna-se necessário 
+efectuar várias medições, e analisar como é que est as se distribuem em torno de um 
+determinado valor. 
+2.1.Erros experimentais 
+Erro Instrumental ou de leitura ( ∆xinst ) é o erro que se comete na leitura de uma 
+medida devido à sensibilidade do instrumento de medida. 
+ 
+Como regra geral podemos dizer que o  Erro Instrumental ou de leitura é igual: 
+ 
+-a metade da menor divisão  da escala nos Instrumentos Analógicos 
+-à menor divisão da escala  nos Instrumentos Digitais  
+ 
+Como excepção à regra geral temos por ex. a Craveira  (também conhecida por Paquímetro  ou 
+Palmer ), que apesar de ser um instrumento analógico, o se u erro coincide com a menor 
+divisão do nónio. Através do exemplo seguinte torna -se mais simples compreender o porquê 
+desta excepção.  
+ 
+ 
+Página 6  
+Exemplo II: Medição do comprimento de uma barra, usando uma craveira 
+ 
+ 
+l=[l 0 +l n]± valor da menor divisão do nónio. 
+ lo : comprimento lido por defeito, a partir do zero da escala principal até ao zero do nónio ; 
+  
+ ln : k µ (valor da menor divisão do nónio) onde k é o número de divisões do nónio contadas a 
+partir do zero do nónio até que a escala deste coincida com a escala principal.  
+ 
+Erros devidos à intervenção do observador 
+Medir é interagir com o instrumento de medida. Se e sta interacção não for correcta, isto é, se 
+não se utilizar correctamente o aparelho de medida,  a medida efectuada surge afectada de um 
+erro de observação. São exemplos comuns deste tipo de erros o deficiente posicionamento do 
+observador em relação à escala (chamado erro de par alaxe), o tempo de resposta do 
+observador, como se estabelece uma referência, etc. 
+ 
+Exemplo III: Como evitar o erro de paralaxe 
+ 
+O erro de paralaxe surge, por exemplo, quando a 
+leitura, num instrumento de medida, é efectuada 
+por coincidência dum ponteiro com uma escala 
+colocada num plano diferente. Nestes casos, o 
+valor lido vai depender da posição do observador 
+relativamente ao plano da escala. (ver Fig. 2a). 
+Para o evitar é necessário que o observador se 
+coloque perpendicularmente ao referido plano. 
+Em alguns instrumentos existe um espelho na 
+escala, que reflecte o ponteiro, e a perpendiculari dade é garantida quando a imagem e 
+o objecto estão alinhados (ver Fig. 2b). 
+Escala principal 
+Nónio 
+ln=5×0.1 mm  
+medida = 6.5±0.1 mm  
+Figura 2  
+l0=6 mm  
+Figura 1  
+Página 7  
+Erros de calibração e de zero da escala dos instrumentos 
+ 
+A calibração assegura que o instrumento de medida p ossui escalas correctas, de acordo com 
+os padrões utilizados, e garante que não são introd uzidos erros sistemáticos quando 
+correctamente utilizado. Um instrumento de medida é usado correctamente quando: 
+• a grandeza a ser medida se encontra dentro dos limi tes de operação/calibração desse 
+aparelho. 
+• para um estímulo nulo a resposta do instrumento é i gualmente nula. Quando isto não 
+acontece temos o chamado erro do zero da escala. Sã o exemplos comuns desta situação: 
+uma balança que sem massas no prato já indica um va lor na escala, um voltímetro que 
+com as pontas de teste em contacto já indica uma di ferença de potencial, etc. 
+Habitualmente estes instrumentos possuem um botão ( dito de calibração) que permite 
+corrigir estas situações e eliminar o erro do zero.  
+ 
+ 
+Exemplo IV: Como evitar o erro do zero de uma régua 
+ 
+Quando numa régua a escala junto ao 
+zero está rasurada (ou deteriorada) deve-
+se fazer a medida utilizando como início 
+de escala outro valor que não o zero. Para 
+obter a medida correcta basta subtrair o 
+valor inicial utilizado.  
+  
+Figura 3 
+ 
+ 
+Alterações ambientais que influenciam o desenrolar da experiência 
+ 
+Outro dos factores que influencia a qualidade da me dida obtida é a alteração ambiental no 
+local da experiência (normalmente o laboratório). S ão exemplos destas alterações a variação 
+da temperatura, da pressão, da tensão da rede, etc. 
+ 
+ 
+Página 8  
+Exemplo V: Expansão térmica do instrumento de medida 
+ 
+Ao usar uma régua de cobre para fazer 
+uma medida de comprimento L num local 
+cuja temperatura varie de 20ºC a 200ºC 
+comete-se um erro de 0.3%. 
+ 
+LT=20ºC  = 1.000 m 
+LT=200ºC  = L T=20ºC  + L T=20ºC  × α × ∆T  = 
+1.000 + 1.000 × 17 ×10 -6 × 180 = 1.003 m 
+ Tabela I 
+Coeficiente de expansão linear 
+α /(10 -6 ºC -1) 
+Cobre 17 
+Aço 11 
+Invar 1 
+Vidro Comum 9 
+Sílica fundida 0.5 
+Outro tipo de erros a considerar 
+• De natureza teórica (ex. desprezar o atrito na dete rminação da aceleração da 
+gravidade usando o tempo que um corpo demora a cair de uma altura h); 
+• De natureza estatística, inerentes ao próprio fenóm eno (ex. desintegração de 
+núcleos radioactivos num dado intervalo de tempo); 
+ 
+Os erros experimentais podem ser classificados em duas classes: 
+ 
+Erros sistemáticos , são erros constantes  que influenciam (por excesso ou por defeito) todas as 
+medições. Por exemplo, um erro de calibração é difí cil de eliminar se o instrumento em 
+questão não for confrontado com o padrão. Já o erro do zero  na escala, na medição de um 
+comprimento, pode ser facilmente eliminado se a med ida for feita entre dois pontos distintos 
+da escala (ver Fig. 3). 
+ 
+Erros aleatórios ou  estatísticos , são os que se revelam quando se repete a medição de uma 
+grandeza e se obtêm valores diferentes, reflexo por  ex. da falta de precisão do instrumento de 
+medida, ou por outras flutuações não controladas pe lo observador. Estes só têm significado 
+para um número de medições (observações) da mesma g randeza superiores a um. Para um 
+número razoavelmente grande de medidas é possível c ontrolar este tipo de erros recorrendo à 
+análise estatística. 
+ 
+Nota:  numa experiência real podem ocorrer as duas classes de erros 
+Página 9  
+3.  Avaliação de um resultado experimental: precisão e exactidão 
+na medição de uma grandeza  
+ 
+i)  Precisão 
+Na maior parte das vezes, o experimentador não conh ece o valor “real” da grandeza que 
+pretende determinar, ou então tem apenas uma ideia aproximada dada por outros métodos. 
+Neste caso, a avaliação da experiência faz-se conhe cendo a precisão  com que o resultado foi 
+determinado.  
+ 
+Um resultado de uma medição é tanto mais preciso quanto  menor  o erro relativo , definido 
+por xx∆ , que geralmente se exprime em percentagem: 
+ 
+Erro relativo =  100 ×∆xx  (%) 
+ 
+ii)  Exactidão: número reduzido de medições 
+A exactidão  de uma experiência é uma medida do grau de proximi dade entre o valor “real” e 
+o resultado experimental ( X±∆ X). 
+Sabermos se o valor da grandeza que determinámos es tá próximo do valor esperado -“valor 
+real”- é fundamental na discussão de um trabalho ex perimental. No entanto a situação mais 
+comum numa experiência é não conhecermos o valor “r eal” da grandeza que se determinou, 
+mas sim de uma determinação obtida por outrem, tamb ém ela com um erro. Pretendemos 
+então estabelecer um critério que nos permita saber  se o valor medido deve ou não ser 
+rejeitado.  
+Como na prática, o aluno só realiza um conjunto mui to limitado de medições de uma mesma 
+grandeza, a estimativa da incerteza, Ax∆ , é feita pelo máximo dos desvios, erro de observaç ão 
+erro de leitura (medida directa) ou limite superior  do erro (“medida” indirecta), é aceitável 
+uma discussão qualitativa da exactidão. Para isso o  aluno terá que verificar se o “valor real”, 
+µ, ou uma outra determinação, BB xx ∆± , da mesma grandeza intercepta o intervalo da sua 
+medição AA xx ∆± . Este exercício dá-lhe de imediato a noção sobre o  sucesso da sua 
+experiência.   
+Página 10  
+Um estudo rigoroso deste assunto exigiria um formal ismo que está fora do âmbito desta 
+disciplina. A título de curiosidade, o aluno poderá  encontrar no apêndice B informação sobre 
+a avaliação quantitativa da exactidão em duas das situações mais comuns 
+ 
+No âmbito destas disciplinas serão consideradas precisas , todas as medições cujo erro relativo 
+não exceda os 10%. Isto significa que um resultado deve ter uma precisão igual ou superior a 
+90%. 
+Note que a discussão da exactidão de um resultado só faz sentido ser analisada se es te 
+corresponder a uma medição com uma precisão considerada razoável. 
+ 
+Vimos então que, no contexto científico, as express ões exactidão  e precisão  não têm o 
+mesmo significado.  
+ 
+4.  Resultado experimental de medições directas. 
+4.1. A grandeza é medida uma única vez. Erro de leitura ou instrumental e erro de 
+observação 
+Numa experiência em que se faz uma única medição x, o erro que se comete é normalmente 
+limitado pelo poder resolvente do instrumento de me dida, ou seja, corresponde ao erro de 
+leitura ou instrumental. Neste caso o resultado de X será: 
+ 
+X  =  x ± ∆x   ≡  x ± ∆xinst 
+Pode acontecer que o observador durante a medição s e aperceba que está a cometer um erro 
+aleatório ( ∆xobs ) que não consegue controlar, mas que consegue esti mar. Neste caso ele deve 
+utilizar o maior de entre o erro de observação ( ∆xobs ) e o erro de leitura ou instrumental 
+(∆xinst ). 
+ 
+Algarismos significativos e arredondamentos 
+Quando determinamos uma grandeza, seja medindo dire ctamente com um instrumento de 
+medida, ou através de cálculos que envolvam outras grandezas medidas, o valor numérico 
+final deve expressar a incerteza com que foi efectu ada a determinação. Por exemplo, cada 
+uma das determinações individuais da tabela II tem associada a incerteza correspondente ao 
+erro de leitura do instrumento com que foi feita, o u seja, o último algarismo com significado 
+Página 11  
+físico pertence à classe das décimas de segundo. Is to significa que t =18s e t=18.0s não têm a 
+mesma incerteza e por isso não foram medidos com o mesmo instrumento. 
+ 
+Os algarismos significativos são aqueles cujos valo res são conhecidos com certeza, mais o 
+algarismo coberto pela estimativa do erro na determ inação. Consequentemente, o número de 
+algarismos a reter  no valor numérico de uma medição depende do erro da determinação .  
+ 
+Nota: Como no decorrer de uma aula prática o conjun to de medições é normalmente ≤10, 
+convencionamos que o erro no resultado final da med ição deve ter apenas UM 
+ALGARISMO SIGNIFICATIVO . 
+No apêndice A, o aluno poderá encontrar a informaçã o de que necessita para estabelecer 
+correctamente o número de algarismos significativos num resultado experimental. 
+ 
+4.2.Análise da dispersão devida a erros acidentais num conjunto de N medidas: 
+Histogramas e curvas de distribuição 
+ 
+Quando repetimos N vezes uma dada medida, podemos s aber se a dispersão (ou seja, a 
+variação dos valores obtidos) é grande ou pequena r ecorrendo a um método simples de 
+representação gráfica - conhecido por Histograma. P ara construir um histograma procede-se 
+do seguinte modo: 
+ 
+• Divide-se o grupo de medidas em intervalos de uma d ada amplitude (também 
+chamado de classe ). Um valor típico para este intervalo é o erro ass ociado a cada uma 
+das medidas individuais. 
+ 
+• Conta-se o número de resultados xi que ocorrem num dado intervalo ( frequência de 
+ocorrência, f (xi) ) 
+ 
+• Representa-se graficamente f (xi) em função dos intervalos. 
+ 
+Consideremos o exemplo seguinte: 
+Página 12  
+Exemplo VI. Suponhamos que um grupo de alunos prepa rou uma experiência com o 
+objectivo de determinar o intervalo de tempo decorrido entre 9 oscilações completas de um 
+pêndulo. Para isso realizou 20 ensaios, cujos resul tados se apresentam na tabela II, e cujo 
+histograma se representa na Fig. 4. 
+ 
+ 
+Tabela II 
+ 
+(t± 0.1) / s 
+17.8 18.0 18.2 
+18.1 18.2 18.1 
+17.9 18.3 18.1 
+18.5 18.0 18.1 
+18.2 18.3 18.4 
+17.9 18.0 18.3 
+18.1 18.2  
+ 
+1 7 .8 1 7 .9 1 8 .0 1 8 .1 1 8 .2 1 8 .3 1 8 .4 1 8 .5 0
+1
+2
+3
+4
+5Frequência 
+t 9  o s c ila ç õ e s  /s 
+ 
+ 
+Figura 4 
+ 
+ 
+A distribuição de probabilidades normal ou de Gauss  
+ 
+Quando a distribuição de probabilidades da populaçã o (obtida para um número infinito de 
+medidas) de uma dada grandeza é conhecida, podemos prever qual a probabilidade de uma 
+nova medida, em condições idênticas, se situar num dado intervalo. 
+Geralmente um grande número (N→ ∞) de medidas aleatórias, afectadas apenas por pequenas 
+flutuações aleatórias à esquerda e à direita do val or esperado, é descrito por uma função de 
+distribuição de probabilidades simétrica que se des igna de Gauss ou Normal  e que é descrita 
+pela função: 
+ 
+( )
+( )
+dx edx xP
+x
+2
+2
+2
+2
+1  σ
+µ
+σπ
+−−
+=  
+ 
+ 
+Algumas características importantes são: 
+ 
+Página 13  
+ 
+• ( ) dx xP   é a probabilidade do resultado 
+ocorrer ente x e x+dx , sendo que,  
+ 
+( ) )x( fNxP ii
+1 =  
+ 
+• µ é o valor médio da população (o 
+chamado valor mais provável ou “real”) 
+ 
+• σ é o desvio padrão da população 
+(parâmetro que controla a largura da 
+curva) 
+ 
+ 
+( )
+( )
+dx edx xP
+x
+2
+2
+2
+2
+1  σ
+µ
+σπ
+−−
+=
+ 
+µ+3σ µ+2σ µ−3σ µ−2σ µ−σ µ+σ µ
+P(x) 
+ 
+Figura 5 
+• A largura a meia altura da curva é 
+2.35 σ; 
+• O valor máximo da curva é 
+πσ 2
+1 ; 
+• As áreas parciais da curva, 
+correspondem a probabilidades de 
+ocorrência de um resultado. Esta 
+distribuição prevê que uma medida 
+ocorra com as probabilidades P i (%) 
+dadas pela tabela III. 
+ 
+ 
+Pi (%)  Intervalo 
+19.5 [ µ; µ+σ/2] 
+34.13 [ µ; µ+σ] 
+68.27 [ µ-σ; µ+σ] 
+95.45 [ µ-2σ; µ+2 σ] 
+99.73 [ µ-3σ; µ+3 σ] 
+Tabela III 
+Analisando a tabela III, verificamos que a probabil idade de ocorrerem valores para além de 
+µ-3σ é extremamente baixa, apenas 0.3% das medições se encontram neste intervalo. Isto 
+equivale a dizer que a probabilidade acumulada  é de (100-0.3)% = 99.73%. 
+ 
+ 
+Página 14  
+4.3.Grandeza medida um número reduzido de vezes (N <10) 
+Na maioria das situações práticas temos um conjunto  limitado de medidas, chamado de 
+Amostra  (como no caso do Exemplo VI ) e não uma população ( N→ ∞). Quando este conjunto 
+de medidas é inferior a 10 medidas, não têm sentido  fazer um estudo da dispersão da amostra 
+em torno da média  e fazer a estimativa do desvio padrão . A incerteza na determinação pode 
+ser determinada usando métodos de aproximação difer entes, consoante o objectivo a que se 
+destina a experiência. Aquele que utilizaremos nas aulas, é considerar a incerteza na medição 
+como o  máximo dos desvios     i xxd i −= . 
+ 
+}{ idMax xX  ±= ,   
+• onde o valor médio , x , representa o valor mais provável dado por:   
+N
+xxx
+N
+x
+x N
+N
+i
+i +++== ∑= ... 111  
+ 
+O tratamento estatístico necessário quando estamos perante um conjunto de N (N ≥10) 
+medidas encontra-se discutido no apêndice B. 
+ 
+5.  Medidas Indirectas 
+5.1.Combinação ou propagação de erros em grandezas independentes 
+Na maioria das experiências, para atribuir o valor a uma grandeza, medem-se/determinam-se 
+várias quantidades independentes que têm uma incert eza associada. Assim, quando o valor 
+numérico da grandeza é obtido a partir de operações  algébricas, feitas sobre valores medidos 
+/determinados com um certo erro, a incerteza no res ultado final traduz a propagação dos erros 
+parciais. 
+Suponhamos que para determinar a grandeza F foram efectuadas medições independentes das 
+grandezas x, y, θ, etc, tal que: 
+F=f (x, y ,θ, … ) 
+ 
+Página 15  
+Cada uma das grandezas medidas, x, y e θ tem, respectivamente, uma incerteza associada δx, 
+δy, δθ , etc (que podem ser por ex. erros de leitura, desvi os padrão da média, máximos de 
+desvios, etc). Seja F0 o valor “real” da grandeza F, dado por 
+ 
+F0 = f (x0, y0 ,θ0, … ) 
+O desvio δF≅F-F0 na medição de F determina-se usando o conceito de derivada de uma 
+função: 
+ 
+( ) ( ) ( )
+... FyyFxxFF .. ,. , y , x,. , y , x.,. , y , x + ∂∂+ ∂∂+ ∂∂= δθ θδδδ θθθ , 
+ 
+onde 
+( ) .. ,. ,, θyxx
+F 
+
+
+
+
+∂
+∂ ,
+( ) ,. ,, θyxy
+F
+ ∂∂  e ( ) ,. , y , xzF θ ∂∂ denotam, respectivamente, as derivadas parciais 
+da função F em relação à variável x, y e z calculadas nos valores mais prováveis das 
+grandezas medidas. Matematicamente a expressão ante rior representa o Diferencial  Total  da 
+função F calculado no ponto  ,... ,, θyx . 
+ 
+Nota: Quando uma derivada é calculada em relação a uma variável, todas as outras 
+“variáveis” funcionam como constantes (valores numéricos). 
+ 
+Quando o número de medidas realizadas para determin ar x, y, θ, etc. é pequeno, o erro que 
+têm associado corresponde ao erro de leitura, erro de observação ou ao máximo dos desvios. 
+Então o erro em F é dado pelo Limite Superior do Erro .  
+ 
+( ) ( ) ( )
+... 
+... ,,... ,,... ,,
++∆
+
+
+
+
+∂
+∂+∆ ∂∂+∆ ∂∂=∆ θθ θθθ yxyxyx FyyFxxFF  
+ 
+5.2.Grandeza determinada a partir da relação entre duas grandezas não independentes.  
+ 
+Em muitas das situações práticas, o experimentador está interessado em estudar duas ou mais 
+grandezas que não são independentes e estabelecer a  expressão matemática (relação 
+Página 16  
+funcional) que as relaciona. Na maior parte das exp eriências que se vão realizar nas aulas 
+práticas, é conhecido o enquadramento teórico (mode lo) que pode ser usado para descrever os 
+resultados experimentais.  
+ Para explicar a metodologia a seguir, vamos discutir em detalhe o exemplo VII. 
+ 
+Exemplo VII: Determinação da aceleração da gravidad e medindo o período, T, de um 
+pêndulo simples para diferentes comprimentos, l, do  pêndulo. Um grupo A de alunos realizou 
+uma experiência e obteve os resultados que constam na tabela IV.  
+ 
+(T ± 0.05)  /s 1.54 1.65 1.69 1.76 1.90 1.97 2.14 2.24 2.28 2.39 2 .44 2.55 2.61 2.69 
+(l ±0.5)  /cm 60.0 65.0 70.0 80.0 90.0 100.0 110.0 120.0 130.0 14 0.0 150.0 160.0 170.0 180.0 
+Tabela IV 
+ 
+Esta metodologia  pressupõe:  
+ 
+I.Identificar o modelo que estabelece a relação ent re as grandezas medidas e a 
+grandeza que pretendemos determinar 
+ 
+Exemplo VII (cont.): Como terá a oportunidade de ap render, a teoria dá-nos a relação entre 
+as grandezas medidas e a grandeza que pretendemos d eterminar. Quando se despreza o 
+atrito do ar e quando são usadas pequenas amplitudes de oscilação a relação é: 
+ 
+g
+lT π2=
+ 
+ 
+ 
+ 
+ 
+II.Utilizar a representação gráfica das grandezas m edidas para verificar a sua 
+relação com o modelo previamente estabelecido 
+A representação gráfica das grandezas medidas é mui to útil quando queremos estabelecer a 
+relação entre as mesmas.  
+ 
+O gráfico da Fig. 6 traduz a dependência das grandez as medidas pelo grupo A de alunos. 
+Página 17  
+Neste caso como sabemos o valor “real” da aceleraçã o da gravidade (g=9.81ms -2) podemos 
+incluir também a representação gráfica, do período “real”, que seria esperada no intervalo 
+de comprimentos usados, e assim concluir, por compa ração, se a curva teórica (função) se 
+ajusta aos pontos experimentais.  
+ 
+40 60 80 100 120 140 160 180 200 
+1.3 
+1.4 
+1.5 
+1.6 
+1.7 
+1.8 
+1.9 
+2.0 
+2.1 
+2.2 
+2.3 
+2.4 
+2.5 
+2.6 
+2.7 
+2.8 
+2.9 
+3.0 
+ 
+Valor do Período    T /s 
+Valor do comprimento do Pêndulo   l /cm 
+ T=2 π ( l / 9.81) 
+1/2 
+ Valores experimentais (T i , li)
+ 
+Figura 6 
+A comparação faz-se considerando o intervalo de ince rteza associada a cada par de medidas 
+(T i, l i). Este intervalo encontra-se também representado no  gráfico da Fig. 6 e é designado 
+por Barra de Erro . 
+ 
+Quando confrontamos a distribuição gráfica dos pont os experimentais ( xi, yi) com o modelo 
+teórico (ver Fig. 6), é importante encontrar um critério razoável e prático para rejeitar pontos 
+experimentais  que eventualmente se afastem muito do valor espera do (“real”). Como 
+normalmente é feita uma única medição de xi e yi, vamos utilizar, no âmbito das aulas práticas 
+desta disciplina, o seguinte critério: 
+ 
+Um ponto experimental y i ±  ∆yi deve ser rejeitado quando a sua ordenada y i se afasta do 
+gráfico da função esperada f(x i), por um valor ≥ 3 ∆yi. 
+ 
+Notas sobre a representação gráfica 
+A representação gráfica de eixos cartesianos XY, vu lgarmente utilizada, tem que ser realizada 
+de forma a facilitar a sua análise e por isso deve obedecer a determinados critérios, tais como: 
+• Conter um título que indique qual a relação entre as variáveis que estão a ser estudadas; 
+Página 18  
+• Nos eixos devem ser indicadas as variáveis e respec tivas unidades, usando a notação 
+variável/ unidade (ex. massa/g, aceleração/ ms -2, etc). 
+• Indicação da escala utilizada em cada eixo. Sempre que possível deve ser escolhida uma 
+escala que permita marcar o último algarismo signif icativo dos valores, mesmo que que 
+para isso seja necessário manipular os algarismos ( por ex. marcar o valor numérico 2.21 
+pode ser facilitado se observarmos que 2.21=22.1 µ10 -1). 
+• A escala escolhida deve ser tal que o conjunto de p ontos experimentais representados 
+ocupe a área disponível (normalmente uma folha de papel milimétrico). 
+• Os pontos experimentais devem ser marcados com a re spectiva barra de erro, ou seja o 
+(x±∆x, y±∆y).  
+ 
+ 
+ 
+• Conter uma legenda quando necessária, para distingu ir diferentes conjuntos de medidas 
+ou evidenciar particularidades do gráfico. 
+ 
+ 
+ 
+III.Determinação de uma grandeza através dos parâme tros da função de ajuste que 
+descreve o gráfico de pontos: Método dos Mínimos De svios Quadrados aplicados a 
+uma função do tipo y = mx+b 
+ 
+O gráfico de pontos da Fig. 6 descreve uma função d o tipo xconst y ×= . A determinação 
+de g através  dos parâmetros desta função, ou seja em que T é ordenada e l a abcissa, não é a 
+mais evidente nem a mais acessível de analisar. Quando a relação é linear (isto é, a função que 
+descreve os dados experimentais é uma recta) é rela tivamente simples determinar o valor de 
+uma grandeza, pois este está relacionado com o declive e/ou com a ordenada na origem. 
+ 
+x 
+y-∆y 
+y 
+y+ ∆y 
+x-∆x x+∆x 
+Página 19  
+A. Transformação de uma expressão matemática na forma y = mx + b 
+(linearização) 
+ 
+Quando a expressão que relaciona as grandezas não o bedece à equação de uma recta devemos 
+reescrever uma nova função onde as novas variáveis a usar para a abcissa e ordenada no novo 
+sistema de eixos, estejam relacionadas linearmente.  Este processo corresponde à linearização 
+de uma expressão matemática. Sempre que possível de ve optar-se por um processo que 
+envolva o menor número de cálculos. 
+ 
+Regressando ao exemplo VII, a expressão glT π2=  pode ser linearizada através de:  
+• Método 1: Representando graficamente T em função  de l . Neste caso 
+reescrevendo a expressão como ( ) , l
+g
+T π2=  e efectuando a mudança de variáveis 
+y = T e , lx =  tem-se a equação de uma recta do tipo bmx y += , cujo declive, m, 
+e ordenada na origem, b, são respectivamente, 
+ 
+( )
+g
+m π2=    e   0=b  
+ 
+• Método 2: Elevando ao quadrado ambos os termos da e quação temos ( ) , lgT
+2
+2 2π=  
+que através da mudança de variáveis y= T2e x= l permite a equação de uma recta do 
+tipo bmx y += , cujo declive, m, e ordenada na origem, b, são respectivamente, 
+ 
+( )
+gm
+2
+2π=    e   0 =b  
+ 
+• Método 3: Aplicação da função logaritmo ln . 
+ 
+ 
+( ) ( ) ( )l
+g
+TglTglT ln 212ln ln 2ln ln 2 +=⇔=⇔= πππ  
+ 
+Página 20  
+Neste caso a mudança de variáveis seria,  
+( )Tln y = ; ( )lln x = ; 21=m ; = gln b π2 ; 
+ 
+B. Representação dos pontos para a função linearizada e determinação do declive e 
+da ordenada na origem pelo Método dos Mínimos Desvios Quadrados 
+ 
+Suponhamos que para o caso da 
+experiência do Exemplo VII  escolhíamos 
+o método de linearização tal que: 
+y = T2 
+ 
+x = l 
+ 
+( )
+gm
+2
+2π=  e 0 =b  
+ 
+O valor de g pode então ser determinado 
+uma vez conhecido o declive da recta. 
+No gráfico da Fig. 7 encontram-se 
+representados os pares de valores (T 2, l).  
+60 80 100 120 140 160 180 
+2
+3
+4
+5
+6
+7
+8
+ 
+ 
+T
+2
+  / s 
+2
+Comprimento do Pêndulo  l /cm 
+ Recta mais provável do tipo y=mx+b 
+ 
+Figura 7  
+ 
+Observando a distribuição dos pontos, verificamos q ue os nossos olhos conseguem visualizar 
+uma recta média, que se ajusta aos pontos, e para a  qual necessitamos de determinar o declive 
+e a ordenada na origem. Existem no entanto métodos a nalíticos que nos permitem efectuar 
+esses cálculos. 
+ 
+Método dos Mínimos Desvios Quadrados 
+Um dos métodos mais utilizados para calcular a equa ção de uma função, que se ajuste a um 
+conjunto de pontos experimentais que evidenciem uma  relação entre si, é o chamado Método 
+dos Mínimos Desvios Quadrados (MMDQ). Vejamos em pa rticular a sua aplicação a uma 
+função linear.  
+Página 21  
+ 
+Este método pressupõe que apenas a variável 
+escolhida para o eixo dos YY  está afectada por uma 
+incerteza e exige que os erros que afectam as 
+medições sejam aleatórios. Baseia-se num princípio 
+simples segundo o qual, a recta de ajuste deve ser 
+aquela que minimize a soma dos desvios absolutos 
+( )( )
+2
+1
+2
+∑ −=
+N
+ii xfyS onde ( ) bmx xf ii +=  é o valor 
+dado pela recta, calculado para a mesma abcissa xi. . 
+(yi ; x i)
+y
+ 
+ 
+ 
+x
+Figura 8 
+ 
+Minimizando S2 nas variáveis b e m obtêm-se as seguintes expressões para o declive e 
+ordenada na origem da recta de ajuste aos pontos experimentais: 
+∑ ∑
+∑ ∑ ∑ ∑
+
+
+
+
+−
+−
+=
+N N
+ii
+N N N N
+iiiii
+xxN
+yxxyx
+b
+1
+2
+1
+2
+1 1 1 1
+2
+  e   
+∑  ∑−
+∑ ∑ ∑−
+=
+N N
+ii
+N N N
+iiii
+xxN
+yxyxN
+m
+1
+2
+1
+2
+1 1 1  
+ 
+Nota: Este método baseia-se no pressuposto de que a penas a variável y está afectada por uma 
+incerteza (e de valor constante). Contudo, tendo em atenção os objectivos das disciplinas, admite-
+se que as situações propostas não colocam em causa o método. Assim nas aulas práticas vamos 
+aplicá-lo escolhendo para o eixo dos XX uma função da variável sobre a qual actuámos 
+directamente. No decurso da sua formação o aluno te rá certamente oportunidade de aprofundar 
+os seus conhecimentos sobre a aplicabilidade do MMDQ. 
+ 
+Aplicando este método ao gráfico da Fig. 7 do exemp lo VII obtêm-se os seguintes valores 
+para o declive m e para a ordenada na origem b: 
+ 
+04031 . 0=m  s2cm -1  e  003910 . 0=b  s2 
+ 
+C. Determinação do erro que afecta os parâmetros da recta de ajuste aos pontos 
+experimentais 
+ 
+Como na prática lidamos com um número reduzido de p ontos ( N≤10)  as expressões que a 
+seguir indicamos para o cálculo de erro do declive e da ordenada na origem, devem ser usadas 
+Página 22  
+com cuidado, sobretudo se a dispersão dos pontos em  relação à recta mais provável for 
+elevada. Estas envolvem um parâmetro estatístico r (o coeficiente de correlação) usado na 
+avaliação do ajuste aos pontos experimentais. Na si tuação ideal, ou seja quando os pontos 
+estão todos sobre a mesma recta o valor de r2=1.  
+2
+112
+−
+ −=∆ Nrmm ;    Nxmb
+n
+i∑
+∆=∆ 1
+2
+ 
+ 
+21
+1
+2
+1
+2
+21
+1
+2
+1
+2
+1 1 1
+/
+N N
+ii
+/
+N N
+ii
+N N N
+iiii
+yyNxxN
+yxyxN
+r
+
+
+
+ ∑  ∑− ∑  ∑−
+∑ ∑ ∑ −
+=  
+ 
+D. Análise dos valores determinados para (m ± ∆m) e  (b ±± ±± ∆b) 
+ 
+Quando comparamos a recta de ajuste determinada, co m a função teórica linearizada, temos 
+que avaliar qual o significado físico do valores encontrados para ( m ± ∆m) e (b ± ∆b).   
+ 
+Voltando ao nosso exemplo onde ( ) xgy
+2
+2π=  (com y = T2, x = l e b = 0) espera-se que, se não 
+existirem erros sistemáticos, o valor esperado da o rdenada na origem (neste caso b = 0 ) esteja 
+no intervalo [ b - ∆b; b + ∆b]. 
+Outra situação comum é a linearização efectuada con duzir imediatamente a um valor 
+numérico para o declive. Por exemplo na 3ª hipótese  de linearização da expressão em estudo, 
+o declive esperado era 21=m  e deveria estar contido, se não existirem erros si stemáticos, no 
+intervalo [ m - ∆m; m + ∆m]. 
+ 
+E. Cálculo da grandeza determinada graficamente e do seu erro. 
+ 
+Conhecendo a equivalência entre os valores obtidos para os parâmetros da melhor recta de 
+ajuste e as expressões que os relacionam com o mode lo teórico é trivial obter a melhor 
+estimativa da grandeza procurada. O erro de que vem  afectada vai depender dos erros 
+associados aos parâmetros obtidos e pode ser determ inado reportando-nos ao limite superior 
+do erro . 
+Página 23  
+Apêndice A: Algarismos significativos e arredondamentos 
+ 
+A tabela seguinte mostra, através de exemplos, como  se contam os algarismos significativos 
+no valor numérico de uma grandeza 
+ 
+ 
+Valor 
+Nº de algarismos 
+significativos 
+ 
+Observações 
+102 s 
+40 mm 
+ 
+3 
+2 ou 1 (?) a)  
+a)  Representação ambígua  pois 
+o zero pode servir só para 
+posicionar a vírgula ( Não deve 
+ser usada ).  
+ 
+b) A redução de unidades deve 
+ser feita usando potências de 
+base 10, para garantir que o n.º 
+de algarismos significativos não 
+é alterado. 
+4.0 cm  
+4 cm 
+4 × 10 1 mm 
+ 
+2 
+1 
+1 
+0.520 s 
+ 
+3 
+0.061 s 
+ 
+2 
+2.48 kg  
+2.48 ×10 3 g 
+ 
+3b)  
+3b)  
+2480 g 
+ 
+3 ou 4 (?) a)  
+2.480 × 10-3 kg 
+ 
+4 
+50000 m 
+ 
+1 ou 5 (?) a)  
+50.0 ×10 3 km 
+ 
+3 
+ 
+Tabela V: Algarismos significativos 
+ 
+ 
+Nota:  Existem outras regras que poderão ser seguidas desde que utilizadas correctamente 
+ 
+Habitualmente é preciso fazer arredondamentos para satisfazer os critérios quanto ao número 
+de algarismos significativos a reter no resultado f inal. O arredondamento de um número 
+obedece a determinadas convenções que precisamos de  conhecer. Vejamos como utilizar as 
+convenções dos arredondamentos sempre que se aprese ntar o resultado de uma medição, 
+assumindo que o erro deve apenas ter um algarismo significativo . 
+ 
+ 
+Página 24  
+Convenção para arredondamentos 
+Exemplos 
+Valor obtido 
+Resultado a 
+apresentar 
+Se o algarismo à direita do último algarismo 
+significativo a reter for > 5, este é aumentado de 
+uma unidade.  
+ 
+345.671 ± 0.23 m 
+ 
+2539± 42.8 g 
+ 
+345.7 ± 0.2 m 
+ 
+(25.4± 0.4) x 10 2 g 
+Se o algarismo à direita do último algarismo 
+significativo a reter for = 5 e não existem ou são 
+zero todos os algarismos seguintes, este: 
+ 
+Aumenta de uma unidade no caso de ser ímpar. 
+ 
+Mantém-se constante se for par. 
+ 
+ 
+ 
+ 
+ 
+247.50 ± 3.5 cm  
+ 
+98665± 25 g 
+ 
+ 
+ 
+ 
+ 
+248 ± 4 cm  
+ 
+(986.6± 0.2) x 10 2 g 
+Se o algarismo à direita do último algarismo 
+significativo a reter for < 5, este não sofre 
+alterações. 
+360.22 ± 0.23 cm  
+ 
+2539± 42.8 g 
+360.2 ± 0.2 cm  
+ 
+(25.4± 0.4) x 10 2 g 
+Tabela VI: Arredondamentos 
+ 
+Normalmente, os computadores e as máquinas de calcu lar não apresentam o último digito de 
+acordo com as regras anteriores.  
+Para evitar erros de arredondamento em cálculos intermédios , deve considerar-se sempre 
+pelo menos mais um algarismo significativo (a.s.) d o que o maior número presente nas 
+parcelas/factores da operação algébrica. Por exempl o após o cálculo 
+intermédio cm cm cm 0.100 .1 001 . 010000 +×  o valor deverá ter 4 a.s.  
+Nota:  Apenas os valores numéricos com unidades associada s devem ser usados para 
+contabilizar o número de algarismos significativos.  
+ 
+Nota: A discussão sobre algarismos significativos é geral . Aplica-se em todas as situações 
+envolvendo medições de grandezas. 
+Página 25  
+Apêndice B: Grandeza determinada a partir de um grande 
+número de medições (N ≥ 10)  
+ 
+1.  Medidas directas 
+ 
+Vejamos como determinar o valor mais provável de um a amostra de N ≥ 10 medidas e 
+respectivo erro. 
+ 
+Valor mais provável é dado pelo valor médio, x  
+ 
+N
+xxx
+N
+x
+x N
+N
+i
+i +++== ∑= ... 111  
+ 
+Dispersão das medidas em torno do valor mais provável: desvio padrão da amostra 
+ 
+Como indicador da dispersão  das medidas em torno do valor médio é comum usar o  d esvio 
+padrão da amostra, 1−Nσ , 
+ 
+( )
+1
+1
+2
+1
+−
+−
+=
+∑
+=
+−
+N
+xx
+N
+i
+i
+Nσ  
+ 
+onde xxd ii −= representa o desvio da determinação xi em relação ao  valor médio. 
+Note que quando N→→ →→ ∞, 1−Nσ  tende para o valor do desvio padrão da população σ  dado por: 
+( )
+N
+xx
+N
+i
+i∑
+=
+−
+= 1
+2
+σ  
+ 
+Incerteza no valor médio: erro padrão da amostra 
+ 
+Quando a amostra é representativa da população (fun ção de distribuição de probabilidades da 
+grandeza medida), verifica-se que aumentar o número  de medidas não altera 
+significativamente o desvio padrão da amostra ( ver exercício 2 ). 
+ 
+Página 26  
+ 
+Então qual é o objectivo de aumentarmos o número de medições?  
+ 
+Verifica-se que aumentando o número de medidas dimi nuímos o erro (a incerteza) que temos 
+na própria determinação do valor médio. A incerteza  que afecta a média é dada pelo erro 
+padrão da amostra, SN-1: 
+N
+S NN 11 −− = σ  
+ 
+e a apresentação do resultado de duma grandeza X obtida por N determinações  (N ≥10) vem 
+como: 
+1−±= NSxX  
+ 
+ 
+2.  Medidas indirectas  
+ 
+Quando para determinar a grandeza F definida por:   
+ 
+F=f (y, x, θ,  …), 
+ 
+cada uma das grandezas x, y, θ, etc, foi medida N ≥ 10 vezes,  torna-se possível determinar o 
+erro estatístico (desvio padrão da amostra e erro p adrão da amostra) de cada uma dessas 
+grandezas independentes. Neste caso, uma estimativa  mais realista do erro na grandeza F é 
+obtida usando o erro padrão da amostra  de cada uma das grandezas independentes, através 
+da expressão: 
+  
+( ) ( ) ( )
+.... 
+2
+1
+.. ,. ,,
+2
+1
+.. ,. ,,
+2
+1
+.. ,. ,,
+1 +  ∂∂+  ∂∂+  ∂∂= −−−− θθθθ θ NyxyNyxxNyxFN sFsyFsxFs  
+ 
+Página 27  
+3.  Avaliação quantitativa da exactidão de um resultado experimental 
+obtido a partir de um conjunto N (N ≥10) medidas. 
+ 
+i)  Conhece-se o valor “real”, µ  
+ 
+A utilização da distribuição de Gauss para estabele cer intervalos de confiança de um conjunto 
+limitado de observações não é a mais adequada. Na p rática usa-se uma outra distribuição - a 
+distribuição t-student - que depende do número de medições e que tende pa ra a distribuição 
+de Gauss reduzida  quando N →∞ . 
+Para testar se o valor médio, x  é estatisticamente diferente do valor “real”, µ, usa-se o 
+parâmetro t dado por: 
+1−
+−=
+NS
+xt µ ; 
+ 
+O valor encontrado para o parâmetro t  é comparado com os valores de to,  determinados, para 
+n = N-1 graus de liberdade, que constam da tabela distribuição de probabilidades t-student . Os 
+intervalos de confiança  são conseguidos calculando, por exemplo, a área bi lateral i.e. a 
+probabilidade de ocorrência de x , para um dado valor to, )( 1010 −− +<<− NN StxStP µµ . O 
+valor de to tem então o significado de um desvio, to×S N-1, em relação ao valor “real”.  
+ 
+Para clarificar melhor a aplicação desta distribuição, vejamos como utilizar o critério t-student 
+nas seguintes situações: 
+ 
+(1)  Medição da distância focal de uma lente convergente  cujo valor indicado pelo 
+fabricante é de 10.0 cm.  Uma vez realizados 12 ensaios foi determinado o va lor médio 
+cm .f  610 =  e σN-1=0.9 cm . Poderá este resultado ser estatisticamente difere nte do valor dado 
+pelo fabricante? Neste caso o valor calculado é 309 . 2
+12 / 9 . 0
+0 .10 6 .10 =−=t , o que, se usarmos a 
+Tabela VII para 10-1=9 graus de liberdade, equivale a um intervalo de confiança de ~ 96%. O 
+que significa que a probabilidade do valor indicado  pelo fabricante poder estar fora do 
+intervalo cm f 9 . 0±  é de (100%-96%) = 4%. 
+ 
+Página 28  
+(2)  Podemos ainda usar a distribuição t-student para es tabelecer o intervalo dentro do 
+qual deve ocorrer o valor esperado, 11   −− +<<− NN s txs tx µ . Suponhamos que se estabelecia 
+um intervalo de confiança a 98 %, isto significa qu e se aceita o resultado de uma medição em 
+que a probabilidade do valor esperado estar fora de sse intervalo é apenas de 2%. Neste caso 
+para 9 graus de liberdade o valor de t não pode exceder 2.82. Aplicado ao exemplo da 
+medição da distância focal, teríamos um intervalo d e confiança de 
+ ×±=×± − 12 9 . 082 . 26 .10 )82 . 2 ( 1NSf  e assim ter-se-ía 3 .11 87 . 9 << f cm .  
+ 
+ 
+Tabela VII: Probabilidades da distribuição t-Student: valores do parâmetro t0 
+   Pbilateral 
+ 
+n 
+Probabilidades calculadas num Intervalos de confiança 
+0.200 0.400 0.600 0.800 0.900 0.960 0.980 
+5 0.267 0.559 0.920 1.476 2.015 2.757 3.365 
+9 0.261 0.543 0.883 1.383 1.883 2.398 2.821 
+10 0.260 0.542 0.879 1.372 1.812 2.359 2.764 
+20 0.257 0.533 0.860 1.325 1.725 2.197 2.528 
+30 0.256 0.530 0.854 1.310 1.697 2.147 2.457 
+50 0.255 0.528 0.849 1.299 1.676 2.109 2.403 
+ 
+ 
+ii)  Concordância entre dois conjuntos de medidas, X e Y 
+ 
+Muitas vezes acontece não termos conhecimento do va lor “real”, mas sim de uma 
+determinação obtida por outrem, também ela com um e rro. A concordância entre os dois 
+conjuntos de medidas, X e Y, pode ser inspeccionada usando diferentes métodos de acordo 
+com a natureza de cada uma das amostras usadas. Seg ue-se a discussão das situações mais 
+comuns que o aluno encontra na sua actividade laboratorial: 
+ 
+1.  Cada um dos conjuntos de medidas tem uma distribuição gaussiana e o 
+valor do desvio padrão, σσ σσ, é conhecido. Serão os valores médios concordantes? 
+Neste caso, avaliar se Y e X são ou não o mesmo val or equivale a saber se YX − é 
+compatível com o valor zero. Seja YXZ −= , uma nova variável, cujo desvio padrão, 
+σZ é dada por: 
+Página 29  
+22
+YXZ σσσ += ,  
+onde Xσ  e Yσ  são os desvios padrões  associados a X e Y. 
+Considera-se que os valores médios são concordantes quando ZYX σ3<− . 
+ 
+2.  Cada um dos conjuntos de medidas tem uma distribuição gaussiana, cujo 
+valor do desvio padrão, σσ σσ, é igual mas desconhecido. Serão os valores médios 
+concordantes? 
+ 
+Quando os valores médios X  e Y  são obtidos a partir de uma amostra de N x e N y 
+elementos, respectivamente, os desvios padrão da am ostra, 1−NXσ  e 1−NYσ  podem ser 
+usados para estimar o σ, da população.  Como estamos a usar uma estimativa  de σ, 
+teremos que utilizar a distribuição t-student  à semelhança do que aconteceu 
+anteriormente. Define-se então o parâmetro t como: 
++
+−
+=
+YX NNS
+YX
+t
+11
+,  
+ 
+ 
+com ( ) ( ) ( ) ( )( ) 2 11
+2
+1
+2
+1
+−+
+×−+×−= −−
+YX
+Y
+NY
+X
+NX
+NN
+NNS σσ . 
+Uma vez calculado o parâmetro t, recorre-se às tabelas da distribuição t-student  para 
+obter o intervalo de confiança, determinado para 2−+= YX NNn  graus de liberdade, 
+uma vez que o valor “real” e desvio padrão são desc onhecidos. Se o intervalo de 
+confiança encontrado for adequado às exigências da experiência, então conclui-se que 
+os valores médios são concordantes. 
+ 
+Página 30  
+Apêndice C: Tabela Síntese para análise de dados 
+ 
+Resultado de uma medição  XXX ∆±=  (unidades) 
+ 
+Valor mais provável  
+N
+xxx
+N
+x
+x N
+N
+i
+i +++== ∑= ... 111  
+N = 1 medições 
+Erro  ∆X > de entre  
+∆xobs  
+∆xinst  
+Desvio em relação à média     i xxd i −=  
+1<N <10 medições 
+Erro  ∆X 
+ 
+É máximo dos desvios  }{ idMax   
+Propagação de erros 
+ 
+Erro ∆F numa grandeza F=f (x,y, θθ θθ,.. ) 
+Limite superior do erro 
+ 
+( ) ( ) ( )
+... 
+... ,,... ,,... ,,
++∆
+
+
+
+
+∂
+∂+∆ ∂∂+∆ ∂∂=∆ θθ θθθ yxyxyx FyyFxxFF  
+Ajuste linear (y = mx + b) a um conjunto 
+de dados experimentais ( Xi,Yi)  
+ 
+Declive (m±∆m)  
+∑  ∑−
+∑ ∑ ∑−
+=
+N N
+ii
+N N N
+iiii
+xxN
+yxyxN
+m
+1
+2
+1
+2
+1 1 1  
+2
+112
+−
+ −=∆ Nrmm  
+Ordenada na origem (b±∆b) 
+∑ ∑
+∑ ∑ ∑ ∑
+
+
+
+
+−
+−
+=
+N N
+ii
+N N N N
+iiiii
+xxN
+yxxyx
+b
+1
+2
+1
+2
+1 1 1 1
+2
+ 
+N
+x
+mb
+n
+i∑
+∆=∆ 1
+2
+ 
+Coeficiente de correlação  r 21
+1
+2
+1
+2
+21
+1
+2
+1
+2
+1 1 1
+/
+N N
+ii
+/
+N N
+ii
+N N N
+iiii
+yyNxxN
+yxyxN
+r
+
+
+
+ ∑  ∑− ∑  ∑−
+∑ ∑ ∑ −
+=  
+ 
+ 
+Página 31  
+Apêndice D: Planificação de uma experiência e elaboração do 
+relatório 
+ 
+1.  Como planear uma experiência 
+ 
+Planear e realizar uma experiência é uma actividade  fascinante que consome muito tempo. 
+Movidos pela curiosidade, muitas vezes somos levado s iniciar o registo de dados sem que 
+todo o procedimento esteja bem pensado. Raramente t al atitude conduz as medições correctas 
+e em número suficiente, que possibilitem uma boa an álise dentro da precisão exigida. Para 
+evitar que tal aconteça, é importante que um experi mentalista elabore uma lista de controlo da 
+sua experiência. Segue-se uma proposta de lista de controlo que o aluno deve ter presente na 
+actividade laboratorial: 
+ 
+a)  Definir os objectivos da experiência, i.e. elaborar uma lista das questões fundamentais que 
+pretende ver respondidas. 
+b)  Identificar todas as fontes de variabilidade, i.e. tudo que cause que o valor numérico de 
+uma observação seja diferente de uma outra.  
+c)  Seleccionar uma amostra que seja representativa, na s condições de variabilidade 
+seleccionadas, para o estudo de um dado fenómeno. 
+d)  Especificar o tipo de medidas, o procedimento experimental, e antecipar dificuldades. 
+e)  Realizar uma experiência piloto, i.e realizar 2 ou três observações. Neste exercício 
+adquire-se prática na técnica, identificam-se probl emas imprevistos e permite estimar o 
+número de ensaios necessários. 
+f)  Especificar um modelo que se julga existir entre as grandezas que se vão estudar. 
+g)  Esboçar as linhas gerais do processo de análise. 
+h)  Estimar o número de observações necessárias. 
+i)  Rever todas as decisões anteriores se necessário.  
+j)  A experiência pode começar ☺ 
+ 
+2.  Como elaborar um relatório 
+ 
+O esquema a seguir apresentado destina-se a orienta r os alunos sobre o conteúdo dos vários 
+assuntos que compõem o relatório e, por isso, não d everá ser tomado à letra. Em muitos casos 
+pode e deve ser simplificado. Por exemplo, é freque nte que devido a particularidades ou 
+ 
+Página 32  
+complexidades do método experimental utilizado seja  mais claro apresentar o diagrama do 
+dispositivo na introdução teórica, etc. 
+Seja claro, preciso e conciso na escrita dos relató rios. Durante a elaboração do relatório tenha 
+sempre bem presente qual é o objectivo do trabalho. 
+ 
+Título do trabalho 
+Identificação 
+• Autores (nome, número mecanográfico, turma e grupo) 
+• Data de realização  
+Sumário (2 parágrafos) 
+• Objectivos principais do trabalho e qual a metodologia adoptada para os atingir. 
+• Indicar se existe acordo (ou desacordo) dos resulta dos obtidos com os esperados, tendo 
+em atenção a precisão e/ou exactidão dos mesmos. 
+Introdução Teórica (1 a 3 parágrafos) 
+•  Leis a verificar experimentalmente.  
+• Enunciado (pode ser acompanhado de breves considerações que o tornem plausível) 
+• Fórmula que a traduz (e significado físico dos símbolos que nela intervêm) 
+• Grandezas físicas a determinar. 
+Procedimento experimental 
+• Diagrama do dispositivo usado explicando qual o pap el desempenhado por cada um dos 
+componentes da experiência 
+• Procedimento seguido na execução do trabalho e quais as medições a realizar 
+• Cuidados a ter durante a experiência para melhorar as condições de medida. 
+ 
+Apresentação de Resultados 
+•  Tabelas  
+ 
+Página 33  
+• De valores lidos directamente e/ou obtidos a partir  destes por cálculos simples 
+(valores médios, desvios, etc; no caso de serem tab elas muito extensas, estas devem 
+ser apresentadas em apêndice, anexado no final do relatório) 
+• As tabelas devem ser acompanhadas das explicações e  legendas necessárias à sua 
+interpretação. 
+•  Medidas directas expressas sob a forma: X= x ± ∆x (para a grandeza X) 
+• Gráficos 
+Análise de Resultados 
+• Cálculos utilizados no método dos mínimos desvios quadráticos 
+• Cálculos finais das grandezas físicas a determinar e respectivos erros 
+• Comparação dos resultados obtidos com os resultados  esperados (valores tabelados, 
+valores teóricos, valores padrão, etc.) 
+Discussão e conclusão 
+• Resultados finais 
+• Conclusões baseadas nos resultados obtidos 
+• Comentários sobre eventual desacordo entre os resul tados obtidos e os esperados 
+(factores ligados à realização prática do trabalho susceptíveis de explicar tal desacordo, 
+etc.) 
+•  Crítica ao trabalho e sugestões para melhorá-lo (se necessário) 
+ 
+Bibliografia 
+• Faça referência aos documentos consultados para a r ealização do trabalho 
+Anexo B: Tabela de derivadas 
+ 
+Página 34  
+Apêndice E: Tabela de derivadas consideradas fundamentais no 
+âmbito da disciplina  
+ 
+Nota: As u = u(x)  e v = v(x) designam   funções de uma variável, x e u’(x)=u’  dx du ≡  e 
+v’(x)=v’  dx dv ≡  as respectivas  derivadas e k designa uma constante.  
+ 
+Função total y (u,v ) Derivada dx dy ) v , u ( ' y≡  
+ky =  0'=y  
+ku y =  '' ku y =  
+vuy +=  ''' vuy +=  
+vuy ×=  [ ] [ ]''' vuvuy ×+×=  
+v
+uy =  [ ] 2 ''' v vuvuy ×−×=  
+[ ]
+k
+uy =  [ ] ''
+1
+uuky
+k
+××=
+−
+ 
+uky =  ')ln( ' ukky u ×=  
+uy ln =  
+u
+uy ''=  
+uey =  '' uey u=  
+usen y  =  ( ) 'uucos y ×=′  
+uy cos =  ( ) ' uusen y ×−=′  
+utg y  =  ( ) 'sec 2 uuy ×=′  
+ 
+ 
+Anexo B: Tabela de derivadas 
+ 
+Página 35  
+Apêndice F: Exercícios Complementares  
+ 
+ 
+1.  Escreva correctamente cada um dos seguintes valores  medidos, considerando que o 
+erro deve ter no máximo um algarismo significativo. 
+ 
+a = 345± 0.251  mm    d = 6000004± 2700 nm 
+b = 2,47± 0.25 g    e = 6483750± 2500 mA 
+c = 2534.5± 48.02 m    f = 22 ±  893 V 
+ 
+ 
+2.  Na tabela seguinte são apresentados 40 medidas do t empo que um corpo demorou, 
+partindo do repouso, a cair na vertical de uma determinada altura 
+i)  Qual o erro associado a cada medida individual do tempo de queda? 
+ii)  Determine, o valor médio, o desvio padrão, o desvio  padrão da amostra, o 
+erro padrão da amostra e o erro relativo do tempo de queda: 
+a) para as 20 primeiras medidas individuais de t (4 primeiras colunas), 
+b) para o conjunto total das 40 medidas individuais de t. 
+ 
+iii)  Compare e comente os resultados obtidos. 
+ 
+ 
+ 
+ 
+(t ±  0.01) / s 
+1.78 1.58 1.65 1.35 1.56 1.25 1.63 1.45 
+1.56 1.54 1.11 1.25 1.78 1.24 1.89 1.44 
+1.52 1.74 1.44 1.24 1.56 1.33 1.56 1.56 
+1.63 1.35 1.56 1.33 1.52 1.45 1.58 1.25 
+1.89 1.56 1.25 1.74 1.11 1.56 1.54 1.65 
+ t  /___ )(tnσ  /___ )(1 tn−σ /___ )(1 tsn−  /___ tt∆ ×100 
+t(20 medidas)       
+t(40 medidas)       
+Anexo B: Tabela de derivadas 
+ 
+Página 36  
+3.  Sejam ) x ( u e ) x ( v duas funções. Escreva para cada uma das seguintes alíneas as 
+expressões que dão as derivadas totais da função ) x( f  definida por: 
+ 
+ 
+i) ) x( v) x( u) x ( f +=  
+ii) 
+) x( v
+) x( u) x ( f=  
+iii) )x( v) x( u) x ( f=  
+iv) ) x ( v ) x( u) x ( f=  
+v) ( )) x( vcos ) x( u) x( f =   
+ 
+4.  Escreva a expressão para o Diferencial Total das gr andezas seguintes, se conhecidas as 
+incertezas de cada uma das grandezas independentes.  (Se necessário consulte a tabela 
+de derivadas, dada em anexo). 
+ 
+i)  cbas ++=  
+ii)  abc V =  
+iii)  Vm=ρ  
+iv)  hRV 2π=  
+v)  θcos lh =  
+ 
+ 
+5.  Prove que no caso de ter uma grandeza F, que depend e das grandezas independentes x, 
+y, z de acordo com a expressão: 
+ 
+.... χβα zyxF =  (os índices α, β e χ poder ser positivos ou negativos ), 
+ 
+o erro relativo de F calculado para um número pequeno de medições de x, y e z é dado por: 
+ 
+....     +∆+∆+∆=∆ z zyyxxFF χβα  
+ 
+ 
+ 
+Anexo B: Tabela de derivadas 
+ 
+Página 37  
+ 
+ 
+6.  O diâmetro interno de um tubo capilar foi determina do, através  da altura de uma 
+pequena quantidade de mercúrio nele introduzida.  
+As observações foram as seguintes: 
+ 
+h1.................................................................109.26 ± 0.02 mm 
+h2...................................................................58.26 ± 0.02 mm 
+massa do tubo capilar vazio (m v).....................6.610 ± 0.002 g 
+massa do tubo capilar com o mercúrio (m)..... 6.884 ± 0.002 g 
+Assumindo que a massa volúmica do mercúrio é 13.6 g /cm 3 ±1%, calcule o diâmetro do tubo 
+e o respectivo erro experimental. 
+ 
+7.  A altura h a que se eleva uma coluna de água, num tubo de vid ro de pequeno diâmetro 
+aberto em ambas as extremidades, é dada pela expressão 
+gR h ρσ2=  (Lei de Jurim), onde  
+- σ representa a tensão superficial do líquido; 
+- ρ representa a massa volúmica do líquido 
+- R é o raio interno do tubo. 
+Descreva uma experiência que conduza à determinação  da tensão superficial da água, usando 
+os parâmetros de uma função representada graficamente, identificando: 
+i)  Material necessário e instrumentos de medida adequados; 
+ii)  Montagem do dispositivo experimental; 
+iii)  Medições directas a realizar; 
+iv)  Tratamento de dados. 
+ 
+8.  Para determinar o coeficiente de expansão do ar sec o (a pressão constante) mediu-se a 
+coluna de ar retida num tubo capilar uniforme, h, a diferentes valores de temperatura. 
+Os resultados estão indicados na tabela seguinte. 
+ 
+h1 
+h2 
+Anexo B: Tabela de derivadas 
+ 
+Página 38  
+Sabendo que as grandezas medidas se relacionam com o coeficiente de expansão do ar ( αar ) 
+pela expressão: 
+ 
+)1 ()( 0 ThTh ar α+= , ( h0 , a altura da coluna de ar a T=0ºC ) 
+ 
+i)  Represente graficamente as grandezas medidas. 
+ii)  Calcule, através dos parâmetros da função de ajuste  aos pontos 
+experimentais, os valores das constantes h0 e αar . 
+ 
+9.  Um grupo B de alunos realizou uma experiência para determinar a velocidade do som 
+no ar. Na tabela seguinte está indicado o conjunto de determinações obtidas. 
+ 
+(T ±0.1) 
+/ºC 
+(h±1) /mm  
+23.3 71 
+32.0 73 
+41.0 75 
+53.0 78 
+62.0 80 
+71.2 82 
+87.0 86 
+99.0 89 
+Anexo B: Tabela de derivadas 
+ 
+Página 39  
+ 
+a)  Calcule o valor médio e o desvio associado cada 
+determinação. 
+b)  Considere o resultado v 4=375±2 ms -1. Recordando o 
+que aprendeu sobre as distribuições de probabilidad e 
+de uma determinação experimental, diga, se esta 
+medição pode ser considerada pelo grupo como 
+resultado de um erro “grosseiro” e portando deve se r 
+desprezada. 
+c)  Sabendo que o valor esperado é de 340 ms -1 (nas 
+mesmas condições de temperatura), o que conclui 
+quanto à exactidão do resultado quando o limite de 
+confiança é ~95%. (consulte a tabela XIII). 
+ 
+ 
+Bibliografia 
+[1] R.M White e J.Yarwood, em Experimental Physics for Students , Chapman and Hall, 
+Londres, 1973. 
+[2] M.C.Abreu, L.Matias e L.F. Peralta, Em Física Experimental Uma introdução , 1ªed, 
+Editorial Presença, Lisboa, 1994. 
+[3] P. R. Bevington, em Data Reduction and Error Analysis for the physical science , 
+McGraw-Hill, London, 1969. 
+[4] V. Bonifácio em Guia do Tratamento dos Dados Experimentais - Aponta mentos da 
+disciplina de Física Geral , 2003. 
+[5] N.C. Barford, Experimental measurements: Precision, Error and Tru th , 2ªEd, John 
+Wiley & Sons, New York (1985). 
+[6] G. Almeida, Sistema Internacional de unidades (SI)-Grandezas e Unidades Física, 
+terminologia, símbolos e recomendações , 1ªEd., Plátano Editora, Lisboa (1988). 
+ 
+ 
+(vi± 2) /ms -1 vvd ii −=  
+356  
+319  
+356  
+375  
+342  
+355  
+340  
+337  
+340  
+333  
+=v   
+ 

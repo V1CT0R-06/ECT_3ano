@@ -1,0 +1,339 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+ 
+Mecânica e Campo Eletromagnético 
+DEPARTAMENTO DE FÍSICA  
+Ano letivo 2026/2027 
+ 
+TRABALHO _ MOVIMENTO DE PROJÉTEIS 
+ 
+Objetivos 
+• Determinar a velocidade inicial do projétil através das equações do movimento 
+• Verificar a dependência do alcance com o ângulo de lançamento 
+• Determinar a velocidade inicial do projétil utilizando um pêndulo balístico 
+ 
+1. INTRODUÇÃO 
+A posição de um projétil, de massa M e velocidade inicial v0, que se desloca no plano x, y é dada 
+por: 
+ 
+𝑥 = 𝑥0 + 𝑣0𝑡 cos 𝜃0         (1) 
+𝑦 = 𝑦0 + 𝑣0𝑡 sin 𝜃0 −
+1
+2 𝑔𝑡2        (2) 
+ 
+onde g é a aceleração da gravidade, t é o tempo, x0 e y0 são as coordenadas da posição inicial do 
+projétil e 0 é a inclinação do vetor velocidade inicial relativamente ao eixo dos x. Eliminando a 
+variável t das equações (1) e (2), obtém -se uma nova equação para o alcance x em função do 
+ângulo que permite determinar o ângulo correspondente ao alcance máximo, amax. Se um corpo 
+é lançado de uma altura yi e atinge uma altura final yf, amax é dado por: 
+ 
+𝜃𝑎𝑚𝑎𝑥 = 𝑎𝑟𝑐𝑡𝑔
+1
+√1+
+2𝑔(𝑦𝑖−𝑦𝑓)
+𝑣02
+        (3)
+                                                      Se o valor da altura inicial for igual ao da altura final (yi=yf) então, tgamax = 1 pelo que amax=45. 
+ 
+PÊNDULO BALÍSTICO 
+ 
+O pêndulo balístico consiste numa massa M suspensa de um fio ou uma barra. Se um projétil 
+de massa m (m<<M) for disparado contra a massa M e nela ficar retido, então o conjunto adquire 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+energia cinética, Ec, que, à medida que o pêndulo se move, vai sendo transformada em energia 
+potencial gravítica, Ep. A altura máxima, h, atingida será tal que a energia potencial gravítica 
+máxima iguala a energia cinética inicial, devido à conservação da energia mecânica. 
+Considerando v0 a velocidade inicial do projétil e v2 a velocidade do conjunto massa + projétil , 
+logo após a colisão, obtém-se:  
+ 
+𝐸𝐶(𝑖𝑛𝑖𝑐𝑖𝑎𝑙) = 12 (𝑚 + 𝑀)𝑣22 = (𝑚 + 𝑀)𝑔ℎ = 𝐸𝑝(𝑚á𝑥)    (4) 
+ 
+A conservação de momento linear na colisão implica que: 
+ 
+𝑚𝑣0 = (𝑚 + 𝑀)𝑣2         (5) 
+ 
+de onde se tira a relação entre a velocidade inicial v0 e a altura h: 
+ 
+𝑣0 = (𝑚+𝑀𝑚 ) √2𝑔ℎ         (6) 
+ 
+2. PREPARAÇÃO DO TRABALHO1 
+1. Serão as equações (1) e (2) aplicáveis ao movimento de um projétil de longo alcance? 
+Assuma a ausência de atrito. Justifique, sucintamente, a sua resposta. 
+2. Elimine a variável t das equações (1) e (2) e obtenha uma nova equação para o alcance x. 
+3. Utilizando a equação (3), determine amax supondo que yi – yf = 0,2 m e v0 = 3 ms-1. 
+4. No lançamento do projétil, o efeito do atrito do ar é desprezável. Para atingir a melhor marca 
+possível, um atleta utilizará um ângulo de lançamento superior, inferior ou igual a 45 ? 
+Justifique a sua resposta. 
+5. Deduza a equação (6) a partir das equações (4) e (5). 
+6. Considerando v = s/t e utilizando a teoria da propagação dos erros, determine a equação 
+para o erro associado à velocidade de um projétil, em movimento retilíneo uniforme. 
+7. Deduza a relação entre h, o comprimento do pêndulo, l, e , tendo em conta a Figura 4, bem 
+como o respetivo erro associado, utilizando a fórmula de propagação dos erros. 
+8. Utilizando a equação (6) e recorrendo à teoria de propagação dos erros, determine a 
+equação para o erro associado à velocidade inicial, v0. 
+ 
+ 
+1 Se tiver dúvidas consulte o docente. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+3. PROCEDIMENTO EXPERIMENT AL 
+A Figura 1 mostra uma fotografia da montagem experimental. Identifique os 
+elementos descritos no material fornecido. 
+Figura 1. Esquema da montagem experimental disponível na aula. 
+ 
+MATERIAL FORNECIDO 
+• Lançador de projéteis 
+• Sensores de passagem 
+• Sensor de impacto 
+• Esfera plástica 
+ 
+ 
+Figura 2. Esquema da montagem experimental (experiência A). 1- Lançador de projéteis (LP); 2-
+Base de fixação para o LP; 3 -Sensor de passagem (inicia a contagem do tempo); 4 -Sensor de 
+passagem (termina a contagem do tempo); 5-Sistema de controlo dos sensores. 
+ 
+Parte A - Determinação da velocidade inicial 
+1. Efetue a montagem de acordo com a figura tendo o cuidado de: 
+a. fixar a base (2) à mesa com um grampo adequado e colocar o LP na posição 
+horizontal. 
+Parte A 
+ Parte B        Parte C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+b. garantir que o sistema de controlo (5) está ligado à fonte de alimentação e que se 
+encontra na posição de desligado (OFF). 
+c. garantir que o sensor (3) está colocado imediatamente à saída do LP (1) e que o 
+sensor (4) está ligado ao sistema de controlo (5). 
+2. Meça a distância, s, entre os sensores. 
+3. Carregue o LP na posição de tiro curto – “SHORT RANGE”. Colocar a esfera na boca d o LP, 
+empurrá-la para o interior com a vareta de carregar (tubo de plástico preto) até o indicador 
+amarelo, no LP, se encontrar na posição pretendida. 
+4. Coloque o sistema de controlo (5) na posição de “TWO GATES”. Carregar em START/STOP. 
+5. Dispare o LP puxando o fio do disparador verticalmente e com suavidade. Registe o tempo 
+indicado pelo sistema de controlo (5). 
+6. Repita os passos de 1) a 5) para 5 medidas. Tenha o cuidado de verificar a horizontalidade 
+do LP antes de cada lançamento. 
+ 
+Parte B - Dependência do alcance com o ângulo de disparo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 3. Esquema da montagem experimental (experiência B). 1-Lançador de projéteis (LP); 2-
+Base de fixação para o LP; 3-Alvo. 
+ 
+1. Efetue a montagem de acordo com a figura tendo o cuidado de: 
+a. fixar a base (2) à mesa com um grampo adequado e colocar o LP a fazer um ângulo 
+de 30 com a horizontal. 
+2. Coloque o alvo (conjunto de papel  químico+papel milimétrico) a uma distância tal que a 
+esfera plástica caia sobre a sua superfície. A distância é determinada por tentativa e erro. 
+3. Carregue o LP na posição de tiro curto – “SHORT RANGE” com a esfera. 
+4. Dispare o LP. Registe o alcance, x, e o ângulo de lançamento, . Repita mais duas vezes, 
+tendo o cuidado de verificar se o ângulo de lançamento se mantém constante. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+5. Repita os passos anteriores, para ângulos de 34, 38, 40 e 43. 
+6. Meça rigorosamente, em relação à bancada, a altura, yi, a que a esfera plástica é lançada. 
+ 
+Parte C - Pêndulo Balístico: Método alternativo para determinação da velocidade inicial de 
+um projétil 
+ 
+Figura 4. Esquema da montagem experimental (experiência C). 
+ 
+1. Meça as massas do projétil, m, e do pêndulo, M. 
+2. Meça o comprimento do pêndulo, l. 
+3. Carregue o LP na posição de tiro curto – “SHORT RANGE”. 
+4. Efetue um disparo e meça o ângulo máximo, , descrito pelo pêndulo. 
+5. Repita o ponto anterior mais 4 vezes. 
+ 
+4. ANÁLISE E TRATAMENTO DE DADOS 
+Com base nesta secção, deverá preparar o relatório preliminar obrigatoriamente entregue 
+ao docente no final da aula. 
+ 
+Parte A - Determinação da velocidade inicial 
+• Calcule a média dos 5 tempos medidos e o erro respetivo, t. 
+• Determine a velocidade inicial v0 e o erro respetivo, v0. 
+• Indique qual a maior fonte de erro. Discuta estratégias para melhorar o resultado obtido. 
+ 
+Parte B - Dependência do alcance com o ângulo de disparo 
+• Para cada ângulo 0, determine a média dos 3 alcances obtidos, xob (não é necessário 
+determinar o respetivo erro associado). 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+• Verifique a dependência do alcance médio, xob, com o ângulo de lançamento, . 
+• Determine o ângulo max_ob, correspondente ao alcance máximo observado. Atendendo a 
+que está a fazer uma amostragem discreta considere o erro associado amax_ob igual a 1. 
+• Comente os resultados obtidos. 
+ 
+Parte C - O Pêndulo Balístico 
+• Calcule a média dos ângulos, ,  e o erro respetivo, . 
+• Determine o valor da altura, h, e o erro respetivo, h. 
+• Obtenha um valor final para v0, e para o respetivo erro, v0. 
+• Determine qual a maior fonte de erro. Discuta estratégias para melhorar o resultado obtido. 
+• Compare a velocidade inicial com a obtida na parte A. 
+• Comente a exatidão e a precisão dos valores obtidos. 
+ 
+BIBLIOGRAFIA 
+ [1] Serway, R. A., Physics for Scientist and Engineers with modern Physics, 2000, Saunder 
+College Publishing. 
+[2] Alonso & Finn, Física - um curso universitário, vol. 1, 3ª edição, editora Edgard Blucher, 
+1981: Cap.5 e 7. 
+[3] R. Resnick e D. Halliday, Física, vol. 2, 4ª ed., editora Livros Técnicos e Científicos, 1990. 
+ 
+ 
+O RELATÓRIO FINAL deverá ter a seguinte estrutura:  
+ 
+1. Identificação trabalho (autores, UC, data).  
+2. Resumo (1 parágrafo): Objetivos principais do trabalho e qual a metodologia adoptada 
+para os atingir. Indicar se existe acordo (ou desacordo) dos resultados obtidos com os esperados, 
+tendo em atenção a precisão e/ou exactidão dos mesmos Identificar os objetivos atingidos 
+3. Introdução: Enquadramento do trabalho o contexto dos conteúdos lecionados nas 
+aulas T. Apresentar leis a verificar experimentalmente 
+4. Detalhes experimentais relevantes: Deverão ser indicados todos os passos necessários 
+à boa execução da experiência. Por exemplo, inclusão do material necessário, instrumentos de 
+medida, esquema e fotos da montagem experimental, numero de medidas a efectuar e 
+principais cuidados a ter. 
+5. Apresentação, a nálise e discussão  de resultados : Tabelas com todos os dados 
+experimentais. Cáluculos efetuados . Cálculos finais das grandezas físicas a determinar e 
+respectivoas incertezas . Comparação dos resultads obtidos com os resultados esperados 
+(valores tabelados, valores teóricos, valores padrão, etc). Deverão ser incluídos apenas aspectos 
+relevantes para a análise e discussão das medidas experimentais . Apresentação dos cálculos 
+efetuados (incluindo análise dos erros) e a sua discussão Gráficos 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+6. Conclusões: Resultados finais . Conclusões baseadas nos resultados obtidos . 
+Comentários sobre eventual desacordo entre os resultados obtidos e os esperados (factores 
+ligados à realização prát ica do trabalho susceptíveis de explicar tal desacordo, etc.) . Crítica ao 
+trabalho e sugestões para melhorá-lo (se necessário). Identificação dos objetivos atingids e dos 
+problemas encontrados´e estratégias de mitigação 
+7. Bibliografia (exceto a constante do guião) 
